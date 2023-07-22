@@ -1,0 +1,220 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@context": "https://schema.org",
+            "@id": "21dff47a4142445f83016da0819ffe6dd2947f66",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "2633f5b2-c15c-49fe-80f5-07523e770c26",
+            "name": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
+            "author": [
+                "Amina Adadi",
+                "M. Berrada"
+            ],
+            "url": "https://www.semanticscholar.org/paper/21dff47a4142445f83016da0819ffe6dd2947f66",
+            "abstract": "At the dawn of the fourth industrial revolution, we are witnessing a fast and widespread adoption of artificial intelligence (AI) in our daily life, which contributes to accelerating the shift towards a more algorithmic society. However, even with such unprecedented advancements, a key impediment to the use of AI-based systems is that they often lack transparency. Indeed, the black-box nature of these systems allows powerful predictions, but it cannot be directly explained. This issue has triggered a new debate on explainable AI (XAI). A research field holds substantial promise for improving trust and transparency of AI-based systems. It is recognized as the sine qua non for AI to continue making steady progress without disruption. This survey provides an entry point for interested researchers and practitioners to learn key aspects of the young and rapidly growing body of research related to XAI. Through the lens of the literature, we review the existing approaches regarding the topic, discuss trends surrounding its sphere, and present major research trajectories.",
+            "year": 2018,
+            "about": [
+                "Computer Science"
+            ],
+            "citation": [
+                "2649562ed8b1890be43e7875e9a55c21adb189f2",
+                "6734e948a54b8b90683b50314d1233f70819243d",
+                "5a678b41d493034c6ceb3d673b1210354111920c",
+                "f1db4af25c3082f0bc6c5bec71cad790814b770b",
+                "ac2c374219e2c75c40b3f8bd0b37224454b4bf8c",
+                "7a93f0136f2ef9976904c99e915abf321ced241a",
+                "f05a0fdfd41a6b438183d598b6cf753be3d394db",
+                "c43ee9c879e92281d861d4232ced1d8dd519fa3f",
+                "21dc2ffe9cb842ceda6498300341ba5ebbd1d3ef",
+                "7a36e9ae002fb63882aee8562d78d9ba64e10b6d"
+            ],
+            "doi": "10.1109/ACCESS.2018.2870052"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "2649562ed8b1890be43e7875e9a55c21adb189f2",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "435ffef1-21df-491d-b69a-605eee1b7f7f",
+            "name": "21st Century teaming and beyond: Advances in human-autonomy teamwork",
+            "author": [
+                "T. O\u2019Neill",
+                "Christopher Flathmann",
+                "Nathan J. Mcneese",
+                "E. Salas"
+            ],
+            "url": "https://www.semanticscholar.org/paper/2649562ed8b1890be43e7875e9a55c21adb189f2",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.chb.2023.107865"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "6734e948a54b8b90683b50314d1233f70819243d",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "52307999-2520-4d9b-bca3-9575e6455c08",
+            "name": "Geoweaver_cwl: Transforming geoweaver AI workflows to common workflow language to extend interoperability",
+            "author": [
+                "A. Kale",
+                "Ziheng Sun",
+                "Chao Fan",
+                "Xiaogang Ma"
+            ],
+            "url": "https://www.semanticscholar.org/paper/6734e948a54b8b90683b50314d1233f70819243d",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [
+                "a8de60d26c514ae86dc303f6f9823d4fb7bee20a"
+            ],
+            "doi": "10.1016/j.acags.2023.100126"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "5a678b41d493034c6ceb3d673b1210354111920c",
+            "@type": "ScholarlyArticle",
+            "isPartOf": null,
+            "name": "Current and Potential Applications of Ambient Artificial Intelligence",
+            "author": [
+                "J. Nahar",
+                "S. Kachnowski"
+            ],
+            "url": "https://www.semanticscholar.org/paper/5a678b41d493034c6ceb3d673b1210354111920c",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.mcpdig.2023.05.003"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "f1db4af25c3082f0bc6c5bec71cad790814b770b",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "38a46998-d167-48e8-b731-0fb408f6ce41",
+            "name": "Explainable artificial intelligence in finance: A bibliometric review",
+            "author": [
+                "Xun Chen",
+                "Chao-qun Ma",
+                "Yishuai Ren",
+                "Yu-Tian Lei",
+                "Ngoc Quang Anh Huynh",
+                "S. Narayan"
+            ],
+            "url": "https://www.semanticscholar.org/paper/f1db4af25c3082f0bc6c5bec71cad790814b770b",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.frl.2023.104145"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "ac2c374219e2c75c40b3f8bd0b37224454b4bf8c",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "771dfc3e-58bf-4d14-9583-372ad5db9c88",
+            "name": "Hybrid physics-based and machine learning model with interpretability and uncertainty for real-time estimation of unmeasurable parts",
+            "author": [
+                "T. Kaneko",
+                "Ryota Wada",
+                "M. Ozaki",
+                "Tomoya Inoue"
+            ],
+            "url": "https://www.semanticscholar.org/paper/ac2c374219e2c75c40b3f8bd0b37224454b4bf8c",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.oceaneng.2023.115267"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "7a93f0136f2ef9976904c99e915abf321ced241a",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "8808ca4f-4de5-41ed-a517-a642d268e2fa",
+            "name": "How does the model make predictions? A systematic literature review on the explainability power of machine learning in healthcare",
+            "author": [
+                "Johannes Allgaier",
+                "Lena Mulansky",
+                "R. Draelos",
+                "R. Pryss"
+            ],
+            "url": "https://www.semanticscholar.org/paper/7a93f0136f2ef9976904c99e915abf321ced241a",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.artmed.2023.102616"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "f05a0fdfd41a6b438183d598b6cf753be3d394db",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "1bac31b4-014a-4981-ae41-af2a40acc162",
+            "name": "Reviewing methods of deep learning for intelligent healthcare systems in genomics and biomedicine",
+            "author": [
+                "I. Zafar",
+                "Shakila Anwar",
+                "Faheem kanwal",
+                "Waqas Yousaf",
+                "Fakhar Un Nisa",
+                "Tanzeela Kausar",
+                "Qurat ul Ain",
+                "Ahsanullah Unar",
+                "M. Kamal",
+                "S. Rashid",
+                "Khalid Ali Khan",
+                "Rohit Sharma"
+            ],
+            "url": "https://www.semanticscholar.org/paper/f05a0fdfd41a6b438183d598b6cf753be3d394db",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.bspc.2023.105263"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "c43ee9c879e92281d861d4232ced1d8dd519fa3f",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "1a24ea21-4c37-41d8-9e76-ab802d4afb3e",
+            "name": "Human-in-the-loop for computer vision assurance: A survey",
+            "author": [
+                "Matthew Wilchek",
+                "W. Hanley",
+                "Jude Lim",
+                "Kurt Luther",
+                "Feras A. Batarseh"
+            ],
+            "url": "https://www.semanticscholar.org/paper/c43ee9c879e92281d861d4232ced1d8dd519fa3f",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.engappai.2023.106376"
+        },
+        {
+            "@context": "https://schema.org",
+            "@id": "21dc2ffe9cb842ceda6498300341ba5ebbd1d3ef",
+            "@type": "ScholarlyArticle",
+            "isPartOf": "ec497fa8-833a-4d68-873a-539c20989c22",
+            "name": "Explainable artificial intelligence (XAI): Precepts, models, and opportunities for research in construction",
+            "author": [
+                "P. E. Love",
+                "Weili Fang",
+                "J. Matthews",
+                "Stuart Porter",
+                "Hanbin Luo",
+                "L. Ding"
+            ],
+            "url": "https://www.semanticscholar.org/paper/21dc2ffe9cb842ceda6498300341ba5ebbd1d3ef",
+            "abstract": null,
+            "year": 2023,
+            "about": null,
+            "citation": [],
+            "doi": "10.1016/j.aei.2023.102024"
+        }
+    ]
+}
