@@ -15,9 +15,6 @@ In the following phase, the focus will be on the implentation of the plugin. Thi
 
 The base layer is an extensible layer that implements core components of the plugin. It acts as a gateway to the DKG and allows building of the application layer on the top of that. The plugin is designed to be stateless and to include application-agnostic components, such as the DKG client, cache, LLM client, and a frontend API to various LLMs.
 
-<img width="100%" alt="Screenshot 2023-07-12 at 21 59 25" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/143a945b-084f-4a06-a00a-11bc21173c91">
-
-
 ## Application layer
 
 Application layer is customized to assist with scientific research needs. The application layer will allow manipulation and interaction with the data published on the DKG. The list of features is ordered in such a way that each feature depends on the previous one and inherits its functionalities, enabling easier development. Key features of the application layer include:
@@ -32,30 +29,21 @@ Application layer is customized to assist with scientific research needs. The ap
 
 This plugin demonstrates basic DKG operations like retrieving an asset from the DKG with verifiable proofs from the blockchain. It will integrate the dkg.js within the plugin and will have a connection to one of the public OriginTrail networks.
 
-<img width="100%" alt="Screenshot 2023-07-12 at 22 05 03" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/f6ba68c0-9fc0-4bd4-ae86-b4776032cbc4">
-
 ### Text-to-SPARQL
 
 This plugin demonstrates integration with LLM models for extracting entities and relations from natural language. It also utilizes external services to construct SPARQL queries for information retrieval.
-
-<img width="100%" alt="Screenshot 2023-07-12 at 22 18 38" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/00de76a8-4630-4731-9d39-813f880f44a8">
 
 ### Inference
 
 This plugin demonstrates the power of graph neural networks by performing inference on graph data retrieved from the network. It provides an AI layer that can be utilized for analytics purposes.
 
-<img width="100%" alt="Screenshot 2023-07-12 at 22 23 51" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/e5f0c50d-ac89-4f58-ab41-5382097d5aff">
-
 ## Data Population
 
 This plugin demonstrates integration with authentication services, such as MetaMask, allowing usage in the web3 domain.
-<img width="100%" alt="Screenshot 2023-07-12 at 22 27 07" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/c41b03c3-95c0-486c-abf0-af6638583b02">
 
 **Visualization**
 
 This plugin showcases the visualization of connected data provided by the DKG. It utilizes the visualization tools of the nOS and demonstrates the delivery of different formats to the end user through LLMs.
-
-<img width="964" alt="Screenshot 2023-07-19 at 21 33 01" src="https://github.com/sailingamigos/dkg-copilot/assets/128464297/9b4acb82-15a8-403a-9b15-8a084fd141a8">
 
 ## Milestones and User Stories
 
@@ -93,8 +81,9 @@ To be defined with the Steering committee at ChatDKG Office Hours.
 
 Upon the completion of this project, a list of findings will be presented and the plugin will be submitted for listing on the OpenAI marketplace.
 
-<hr>
+## Example
+<img width="1176" alt="Screenshot 2023-07-22 at 20 51 47" src="https://github.com/sailingamigos/dkg-researcher-plugin/assets/128464297/8853b83e-80f6-4103-8ffa-560f986ce245">
 
-This project is being submitted for consideration for a grant from the [ChatDKG initiative, an open framework for trusted AI based on OriginTrail DKG](https://github.com/OriginTrail/ChatDKG).
+<hr>
 
 _Please note that this is a draft proposal and can be modified based on feedback._
