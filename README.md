@@ -5,6 +5,8 @@ The plugin is designed to help retrieve scientific papers, analyze their results
 
 Such plugin should allow more effective and efficient research by providing access to information that could be verified and analyzed for the knowledge discovery. Key benefits of this plugin include ensuring data verifiability and trust by using decentralized knowledge graph, as well as facilitating machine learning over trusted data.
 
+<img width="1176" alt="Screenshot 2023-07-22 at 20 51 47" src="https://github.com/sailingamigos/dkg-researcher-plugin/assets/128464297/8853b83e-80f6-4103-8ffa-560f986ce245">
+
 # Description
 
 This project aims to build an AI-powered copilot plugin for scientific research that enhances the capabilities of LLMs by integrating a trust and verification layer through DKG. The first phase of the project involves retrieving 10k scientific papers related to machine learning field using the https://github.com/allenai/s2-folks API and publishing their metadata to the DKG.
@@ -80,9 +82,6 @@ To be defined with the Steering committee at ChatDKG Office Hours.
 ## Expected Outcomes
 
 Upon the completion of this project, a list of findings will be presented and the plugin will be submitted for listing on the OpenAI marketplace.
-
-## Example
-<img width="1176" alt="Screenshot 2023-07-22 at 20 51 47" src="https://github.com/sailingamigos/dkg-researcher-plugin/assets/128464297/8853b83e-80f6-4103-8ffa-560f986ce245">
 
 <hr>
 
