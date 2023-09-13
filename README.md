@@ -364,11 +364,11 @@ An example of knowledge asset using `ScholarlyArticle` ontology is presented bel
 ```
 ### Hardware specification
 
-OS: Ubuntu
-RAM: 16GB
-Disk: 1TB SSD
+ - OS: Ubuntu
+ - RAM: 16GB
+ - Disk: 1TB SSD
 
-The plugin and assets bot will be hosted on a server which will communicate with the LLM, DKG, and data repositories.
+The plugin and assets bot will be hosted on a server which will communicate with the LLM, DKG, and data repositories. The project will use Python due to its large number of ML frameworks.
 
 ### Testing and verification
 
@@ -393,3 +393,4 @@ Upon the completion of this project, a list of findings will be presented and th
 <hr>
 
 _Document version: 0.1.0-beta_
+_Last changed: 13th Sep 2023_
