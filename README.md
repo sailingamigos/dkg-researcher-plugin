@@ -393,4 +393,5 @@ Upon the completion of this project, a list of findings will be presented and th
 <hr>
 
 _Document version: 0.1.0-beta_
+
 _Last changed: 13th Sep 2023_
