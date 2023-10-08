@@ -29,7 +29,7 @@ The primary actors in this project are the user that uses the plugin via copilot
 - FR1.2: The assets bot should convert the retrieved scientific papers into knowledge assets, structuring them according to the [ScholarlyArticle](https://schema.org/ScholarlyArticle) and [Semopenalex](https://semopenalex.org/resource/?uri=https%3A%2F%2Fsemopenalex.org%2Fvocab%23) ontologies.
 - FR1.3: The assets bot must have the capability to publish the created knowledge assets to the DKG.
 
-#### Knowledge Retrieval anf Inference
+#### Knowledge Retrieval and Inference
 
 - FR2.1: The plugin should provide a set of techniques to build a SPARQL query based on natural language question and retrieve information from the DKG.
 - FR2.2: The plugin should provide clustering or regression over retrieved data from the DKG.
