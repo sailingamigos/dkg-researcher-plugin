@@ -43,6 +43,8 @@ def create_assets (papers):
 
     for input_data in papers:
         scholarlyarticle = {
+            '@id': input_data.get('paperId', None),
+            '@type': "ScholarlyArticle",
             'paperId': input_data.get('paperId', None),
             'corpusId': input_data.get('corpusId', None),
             'url': input_data.get('url', None),

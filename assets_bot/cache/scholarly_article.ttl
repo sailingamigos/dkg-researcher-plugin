@@ -7,6 +7,8 @@
 :ScholarlyArticle rdf:type rdfs:Class .
 :Author rdf:type rdfs:Class .
 :Journal rdf:type rdfs:Class .
+:PublicationVenue rdf:type rdfs:Class .
+:FieldOfStudy rdf:type rdfs:Class .
 
 # Properties
 :paperId rdf:type rdf:Property ;
@@ -31,15 +33,11 @@
 
 :publicationVenue rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range :PublicationVenue .
 
 :year rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range xsd:integer .
-
-:authors rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range :Author .
 
 :externalIds rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
@@ -71,11 +69,11 @@
 
 :fieldsOfStudy rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range :FieldOfStudy .
 
 :s2FieldsOfStudy rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range :FieldOfStudy .
 
 :publicationTypes rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
@@ -93,10 +91,31 @@
     rdfs:domain :ScholarlyArticle ;
     rdfs:range xsd:string .
 
-:embedding rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
+# Additional properties based on the JSON-LD object
+:alternateNames rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
     rdfs:range xsd:string .
 
-:tldr rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
+:issn rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:string .
+
+:venueUrl rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:anyURI .
+
+:category rdf:type rdf:Property ;
+    rdfs:domain :FieldOfStudy ;
+    rdfs:range xsd:string .
+
+:source rdf:type rdf:Property ;
+    rdfs:domain :FieldOfStudy ;
+    rdfs:range xsd:string .
+
+:journalName rdf:type rdf:Property ;
+    rdfs:domain :Journal ;
+    rdfs:range xsd:string .
+
+:journalVolume rdf:type rdf:Property ;
+    rdfs:domain :Journal ;
     rdfs:range xsd:string .
