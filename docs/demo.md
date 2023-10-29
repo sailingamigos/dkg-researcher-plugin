@@ -19,7 +19,7 @@ Publised knowledge assets can be found at https://dkg-copilot.origintrail.io/dat
 
 ### System health
 
-There is a health page that displays the accuracy of the plugin, as well as a list of requests and responses, available at http://34.121.98.254:5000/public-dashboards/1acb4b4e8f014451b7639c74a5d3051e.
+There is a health page that displays the accuracy of the plugin, as well as a list of requests and responses, available at http://34.121.98.254:5000/d/a24b48d3-ee49-40d2-a62c-d247ca063b06/metrics?orgId=1&from=1698558134350&to=1698579734350.
 
 Username / Password: dkgcopilot
 
