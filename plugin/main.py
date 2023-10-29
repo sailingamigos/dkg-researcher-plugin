@@ -4,13 +4,18 @@ import json
 import quart
 import quart_cors
 from maestro import get_answer, load_data, log_to_influxdb
-from quart import request, jsonify
+from quart import request, jsonify, redirect
 from influxdb import InfluxDBClient
 
 app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
 
 client = InfluxDBClient(host='localhost', port=8086)
 client.switch_database('mydb')
+
+@app.get("/")
+async def index():
+    """Demo page"""
+    return redirect("https://github.com/sailingamigos/dkg-researcher-plugin/tree/main/docs/")
 
 @app.post("/ask")
 async def ask_question():
@@ -22,6 +27,13 @@ async def ask_question():
     log_to_influxdb(client, data, response, is_empty)
 
     return jsonify(response)
+
+@app.get("/data")
+async def get_assets():
+    """Return list of assets"""
+    with open("./assets_bot/cache/assets.jsonld", encoding="utf-8") as file:
+        text = file.read()
+        return quart.Response(text, mimetype="text/json")
 
 @app.get("/logo.jpg")
 async def plugin_logo():
