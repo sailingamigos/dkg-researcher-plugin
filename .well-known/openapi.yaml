@@ -4,7 +4,7 @@ info:
   description: The plugin offers capabilities to retrieve, analyze, and manage information about scientific papers.
   version: 'v1'
 servers:
-  - url: http://localhost:3000
+  - url: https://dkg-copilot.origintrail.io/
 paths:
   /ask:
     post:
