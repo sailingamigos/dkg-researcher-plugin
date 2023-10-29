@@ -9,7 +9,7 @@ from influxdb import InfluxDBClient
 
 app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
 
-client = InfluxDBClient(host='localhost', port=8086)
+client = InfluxDBClient(host='localhost', port=3000)
 client.switch_database('mydb')
 
 @app.get("/")
@@ -58,7 +58,7 @@ async def openapi_spec():
 def main():
     """Main function"""
     load_data ('./assets_bot/cache/assets.jsonld')
-    app.run(debug=True, host="0.0.0.0", port=3000)
+    app.run(debug=True, host="0.0.0.0", port=8080)
 
 if __name__ == "__main__":
     main()
