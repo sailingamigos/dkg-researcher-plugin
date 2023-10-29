@@ -15,7 +15,7 @@ client.switch_database('mydb')
 @app.get("/")
 async def index():
     """Demo page"""
-    return redirect("https://github.com/sailingamigos/dkg-researcher-plugin/tree/main/docs/")
+    return redirect("https://github.com/sailingamigos/dkg-researcher-plugin/tree/main/docs/demo.md")
 
 @app.post("/ask")
 async def ask_question():
