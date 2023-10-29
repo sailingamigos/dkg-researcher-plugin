@@ -8,15 +8,11 @@ class TestPlugin(unittest.TestCase):
     """Smoke test"""
     def test_ask_question(self):
         """Ask a question"""
-        load_data ('assets_bot/cache/assets.jsonld')
-
+        load_data ('./assets_bot/cache/assets.jsonld')
         result = get_answer ({
-            "question": "Select top 10 triples",
-            "sparqlQuery": """PREFIX : <http://schema.org/> SELECT ?s ?p ?o WHERE {
-                                ?s ?p ?o .
-                            } LIMIT 10""",
-            "entities": [""],
-            "relations": [""]
+             "sparqlQuery":"""
+                PREFIX : <http://schema.org/>\nSELECT ?paper ?title WHERE {\n  ?paper a :ScholarlyArticle .\n  ?paper :title ?title .\n} LIMIT 10
+                """
         })
 
         self.assertEqual(len(result), 10)
