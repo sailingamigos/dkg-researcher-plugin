@@ -9,13 +9,13 @@ https://chat.openai.com/share/af4b5a7a-040b-47d2-9ac6-cf073967c51a
 Installing an unverified plugin from the ChatGPT Store requires the following steps:
  - Open your browser and navigate to the ChatGPT Plugin Store.
  - Click on the option to install an unverified plugin at the bottom right of the store interface
- - Add the following endpoint: https://dkg-copilot.origintrail.io and click proceed
+ - Add the following endpoint: https://copilot-beta.chatdkg.ai and click proceed
 
 Once the plugin is enabled, you can start asking questions.
 
 ### Knowledge assets
 
-Publised knowledge assets can be found at https://dkg-copilot.origintrail.io/data.
+Publised knowledge assets can be found at https://copilot-beta.chatdkg.ai/data.
 
 ### System health
 

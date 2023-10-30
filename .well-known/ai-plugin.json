@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://dkg-copilot.origintrail.io/openapi.yaml",
+    "url": "https://copilot-beta.chatdkg.ai/openapi.yaml",
     "has_user_authentication": false
   },
-  "logo_url": "https://dkg-copilot.origintrail.io/logo.jpg",
+  "logo_url": "https://copilot-beta.chatdkg.ai/logo.jpg",
   "contact_email": "hello@contact.com", 
   "legal_info_url": "http://example.com/legal-info"
 }
