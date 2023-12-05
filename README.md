@@ -1,6 +1,6 @@
 # OriginTrail DKG AI-powered copilot plugin for scientific research
 
-This repository contains source code for AI-powered copilot plugin for scientific research that combines the OriginTrail DKG with LLMs.
+This repository is a grant project from https://github.com/OriginTrail/ChatDKG and contains source code for AI-powered copilot plugin for scientific research that combines the OriginTrail DKG with LLMs.
 The plugin is designed to help retrieve information on scientific papers, analyze their results, and manage citations within the Microsoft Word copilot. 
 
 Such plugin should allow more effective and efficient research by providing access to information that could be verified and analyzed using the OriginTrail decentralized knowledge graph (DKG).
