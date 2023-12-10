@@ -1,5 +1,6 @@
 """Maestro module."""
 
+import json
 import glob
 from datetime import datetime
 from rdflib import Graph
@@ -12,7 +13,13 @@ def load_knowledge_assets(path):
     for file in json_files:
         print(f'Loading {file}')
         with open(file, 'r', encoding="utf-8") as file:
-            g.parse(file, format='json-ld')
+            data = json.load(file)
+            jsonld_data = {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [{'public': {k: v for k, v in d['public'].items() if k != '@context'}} for d in data] # remove @context from assets
+            }
+            g.parse(data=jsonld_data, format='json-ld')
 
 def get_answer(sparql_query):
     """Performs SPARQL query."""
