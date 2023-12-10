@@ -58,7 +58,7 @@ async def ask_question():
     log_to_influxdb(client, sparql_query, result, is_empty)
     response += result
 
-    sparql_query = payload['atomSparqlQuery']
+    sparql_query = payload['arxivSparqlQuery']
     result = get_answer(sparql_query)
     is_empty = 1 if not response else 0
     log_to_influxdb(client, sparql_query, result, is_empty)
