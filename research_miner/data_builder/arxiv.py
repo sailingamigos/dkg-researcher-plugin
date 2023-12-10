@@ -39,8 +39,8 @@ def create_assets(papers):
     for input_data in papers:
         atom = {
             'public': {
-                '@context': 'http://www.w3.org/2005/Atom',
-                '@type': 'Entry',
+                '@context': 'https://schema.org',
+                '@type': 'ArxivArticle',
                 '@id': 'urn:research:' + input_data.get('id', None),
                 'title': input_data.get('title', None),
                 'updated': input_data.get('updated', None),

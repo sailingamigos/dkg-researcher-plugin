@@ -1,8 +1,8 @@
 [
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04563v1",
             "title": "Visual Geometry Grounded Deep Structure From Motion",
             "updated": "2023-12-07T18:59:52Z",
@@ -27,8 +27,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04561v1",
             "title": "GenDeF: Learning Generative Deformation Field for Video Generation",
             "updated": "2023-12-07T18:59:41Z",
@@ -56,8 +56,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04558v1",
             "title": "MonoGaussianAvatar: Monocular Gaussian Point-based Head Avatar",
             "updated": "2023-12-07T18:59:31Z",
@@ -84,8 +84,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04556v1",
             "title": "Large Language Models for Mathematicians",
             "updated": "2023-12-07T18:59:29Z",
@@ -112,8 +112,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04554v1",
             "title": "Improved Visual Grounding through Self-Consistent Explanations",
             "updated": "2023-12-07T18:59:22Z",
@@ -140,8 +140,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04552v1",
             "title": "Generating Illustrated Instructions",
             "updated": "2023-12-07T18:59:20Z",
@@ -167,8 +167,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04548v1",
             "title": "Multiview Aerial Visual Recognition (MAVREC): Can Multi-view Improve\n  Aerial Visual Perception?",
             "updated": "2023-12-07T18:59:14Z",
@@ -196,8 +196,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04549v1",
             "title": "PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play",
             "updated": "2023-12-07T18:59:14Z",
@@ -225,8 +225,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04546v1",
             "title": "Adversarial Learning for Feature Shift Detection and Correction",
             "updated": "2023-12-07T18:58:40Z",
@@ -254,8 +254,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04543v1",
             "title": "HyperDreamer: Hyper-Realistic 3D Content Generation and Editing from a\n  Single Image",
             "updated": "2023-12-07T18:58:09Z",
@@ -283,8 +283,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04542v1",
             "title": "SoK: Unintended Interactions among Machine Learning Defenses and Risks",
             "updated": "2023-12-07T18:57:36Z",
@@ -308,8 +308,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04540v1",
             "title": "Sim-to-Real Causal Transfer: A Metric Learning Approach to\n  Causally-Aware Interaction Representations",
             "updated": "2023-12-07T18:57:03Z",
@@ -338,8 +338,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04535v1",
             "title": "Trajeglish: Learning the Language of Driving Scenarios",
             "updated": "2023-12-07T18:53:27Z",
@@ -363,8 +363,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04533v1",
             "title": "Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language\n  Models",
             "updated": "2023-12-07T18:51:19Z",
@@ -390,8 +390,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04530v1",
             "title": "Camera Height Doesn't Change: Unsupervised Monocular Scale-Aware\n  Road-Scene Depth Estimation",
             "updated": "2023-12-07T18:50:01Z",
@@ -414,8 +414,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04529v1",
             "title": "Diffusion Reflectance Map: Single-Image Stochastic Inverse Rendering of\n  Illumination and Reflectance",
             "updated": "2023-12-07T18:50:00Z",
@@ -437,8 +437,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04528v1",
             "title": "Using Large Language Models for Hyperparameter Optimization",
             "updated": "2023-12-07T18:46:50Z",
@@ -464,8 +464,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04521v1",
             "title": "Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping",
             "updated": "2023-12-07T18:41:21Z",
@@ -489,8 +489,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04519v1",
             "title": "Bootstrapping Autonomous Radars with Self-Supervised Learning",
             "updated": "2023-12-07T18:38:39Z",
@@ -516,8 +516,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04514v1",
             "title": "Channel Charting for Streaming CSI Data",
             "updated": "2023-12-07T18:34:25Z",
@@ -543,8 +543,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04510v1",
             "title": "A Block Metropolis-Hastings Sampler for Controllable Energy-based Text\n  Generation",
             "updated": "2023-12-07T18:30:15Z",
@@ -569,8 +569,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04509v1",
             "title": "In-context learning of state estimators",
             "updated": "2023-12-07T18:29:36Z",
@@ -596,8 +596,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04504v1",
             "title": "Coordination-free Decentralised Federated Learning on Complex Networks:\n  Overcoming Heterogeneity",
             "updated": "2023-12-07T18:24:19Z",
@@ -627,8 +627,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04503v1",
             "title": "Data-Driven Robust Reinforcement Learning Control of Uncertain Nonlinear\n  Systems: Towards a Fully-Automated, Insulin-Based Artificial Pancreas",
             "updated": "2023-12-07T18:24:03Z",
@@ -651,8 +651,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04501v1",
             "title": "Graph Metanetworks for Processing Diverse Neural Architectures",
             "updated": "2023-12-07T18:21:52Z",
@@ -679,8 +679,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04474v1",
             "title": "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator",
             "updated": "2023-12-07T17:51:43Z",
@@ -713,8 +713,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04469v1",
             "title": "On the Learnability of Watermarks for Language Models",
             "updated": "2023-12-07T17:41:44Z",
@@ -740,8 +740,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04464v1",
             "title": "Horizon-Free and Instance-Dependent Regret Bounds for Reinforcement\n  Learning with General Function Approximation",
             "updated": "2023-12-07T17:35:34Z",
@@ -766,8 +766,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04463v1",
             "title": "Leveraging Transformer-based Language Models to Automate Requirements\n  Satisfaction Assessment",
             "updated": "2023-12-07T17:33:31Z",
@@ -790,8 +790,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04461v1",
             "title": "PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding",
             "updated": "2023-12-07T17:32:29Z",
@@ -820,8 +820,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04460v1",
             "title": "Probabilistic volumetric speckle suppression in OCT using deep learning",
             "updated": "2023-12-07T17:32:24Z",
@@ -849,8 +849,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04455v1",
             "title": "Fortify the Shortest Stave in Attention: Enhancing Context Awareness of\n  Large Language Models for Effective Tool Use",
             "updated": "2023-12-07T17:24:51Z",
@@ -880,8 +880,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04447v1",
             "title": "Privacy-preserving quantum federated learning via gradient hiding",
             "updated": "2023-12-07T17:16:30Z",
@@ -909,8 +909,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04435v1",
             "title": "Deep3DSketch: 3D modeling from Free-hand Sketches with View- and\n  Structural-Aware Adversarial Training",
             "updated": "2023-12-07T16:57:38Z",
@@ -937,8 +937,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04433v1",
             "title": "DreamVideo: Composing Your Dream Videos with Customized Subject and\n  Motion",
             "updated": "2023-12-07T16:57:26Z",
@@ -967,8 +967,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04432v1",
             "title": "FreqFed: A Frequency Analysis-Based Approach for Mitigating Poisoning\n  Attacks in Federated Learning",
             "updated": "2023-12-07T16:56:24Z",
@@ -995,8 +995,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04423v1",
             "title": "Scalable Knowledge Graph Construction and Inference on Human Genome\n  Variants",
             "updated": "2023-12-07T16:48:32Z",
@@ -1022,8 +1022,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04416v1",
             "title": "Monitoring Sustainable Global Development Along Shared Socioeconomic\n  Pathways",
             "updated": "2023-12-07T16:38:20Z",
@@ -1049,8 +1049,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04412v1",
             "title": "Developing Elementary Federated Learning Algorithms Leveraging the\n  ChatGPT",
             "updated": "2023-12-07T16:34:47Z",
@@ -1075,8 +1075,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04411v1",
             "title": "Family Structure, Gender and Subjective Well-being: Effect of Child ren\n  before and after COVID 19 in Japan",
             "updated": "2023-12-07T16:29:18Z",
@@ -1099,8 +1099,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04404v1",
             "title": "On the Impact of Multi-dimensional Local Differential Privacy on\n  Fairness",
             "updated": "2023-12-07T16:17:34Z",
@@ -1127,8 +1127,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04402v1",
             "title": "Semi-Supervised Active Learning for Semantic Segmentation in Unknown\n  Environments Using Informative Path Planning",
             "updated": "2023-12-07T16:16:47Z",
@@ -1153,8 +1153,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04398v1",
             "title": "Intelligent Anomaly Detection for Lane Rendering Using Transformer with\n  Self-Supervised Pre-Training and Customized Fine-Tuning",
             "updated": "2023-12-07T16:10:10Z",
@@ -1184,8 +1184,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04396v1",
             "title": "Canonical scattering problem in topological metamaterials: Valley-Hall\n  modes through a bend",
             "updated": "2023-12-07T16:08:39Z",
@@ -1211,8 +1211,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04393v1",
             "title": "PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction",
             "updated": "2023-12-07T16:06:31Z",
@@ -1240,8 +1240,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04386v1",
             "title": "Model-Based Epistemic Variance of Values for Risk-Aware Policy\n  Optimization",
             "updated": "2023-12-07T15:55:58Z",
@@ -1267,8 +1267,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04382v1",
             "title": "Adversarial Denoising Diffusion Model for Unsupervised Anomaly Detection",
             "updated": "2023-12-07T15:51:19Z",
@@ -1292,8 +1292,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04377v1",
             "title": "HARQ-IR Aided Short Packet Communications: BLER Analysis and Throughput\n  Maximization",
             "updated": "2023-12-07T15:47:18Z",
@@ -1321,8 +1321,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04374v1",
             "title": "Deep Dynamics: Vehicle Dynamics Modeling with a Physics-Informed Neural\n  Network for Autonomous Racing",
             "updated": "2023-12-07T15:44:56Z",
@@ -1348,8 +1348,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04371v1",
             "title": "A Scalable Network-Aware Multi-Agent Reinforcement Learning Framework\n  for Decentralized Inverter-based Voltage Control",
             "updated": "2023-12-07T15:42:53Z",
@@ -1376,8 +1376,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04370v1",
             "title": "Investigating the Design Space of Diffusion Models for Speech\n  Enhancement",
             "updated": "2023-12-07T15:40:55Z",
@@ -1405,8 +1405,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04361v1",
             "title": "Detecting the prompt optical flashes of gamma-ray bursts with small\n  telescope arrays",
             "updated": "2023-12-07T15:28:44Z",
@@ -1427,8 +1427,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04356v1",
             "title": "NeuJeans: Private Neural Network Inference with Joint Optimization of\n  Convolution and Bootstrapping",
             "updated": "2023-12-07T15:23:07Z",
@@ -1454,8 +1454,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04350v1",
             "title": "CLadder: A Benchmark to Assess Causal Reasoning Capabilities of Language\n  Models",
             "updated": "2023-12-07T15:12:12Z",
@@ -1488,8 +1488,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04346v1",
             "title": "Improved Efficient Two-Stage Denoising Diffusion Power System\n  Measurement Recovery Against False Data Injection Attacks and Data Losses",
             "updated": "2023-12-07T15:06:06Z",
@@ -1514,8 +1514,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04344v1",
             "title": "Enhancing Medical Task Performance in GPT-4V: A Comprehensive Study on\n  Prompt Engineering Strategies",
             "updated": "2023-12-07T15:05:59Z",
@@ -1547,8 +1547,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04343v1",
             "title": "Causality and Explainability for Trustworthy Integrated Pest Management",
             "updated": "2023-12-07T15:05:26Z",
@@ -1577,8 +1577,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04339v1",
             "title": "Merging by Matching Models in Task Subspaces",
             "updated": "2023-12-07T14:59:15Z",
@@ -1602,8 +1602,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04334v1",
             "title": "Towards a Perceptual Evaluation Framework for Lighting Estimation",
             "updated": "2023-12-07T14:51:12Z",
@@ -1628,8 +1628,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04330v1",
             "title": "Surrogate Modelling for Sea Ice Concentration using Lightweight Neural\n  Ensemble",
             "updated": "2023-12-07T14:48:30Z",
@@ -1653,8 +1653,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04327v1",
             "title": "Learning to sample in Cartesian MRI",
             "updated": "2023-12-07T14:38:07Z",
@@ -1677,8 +1677,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04326v1",
             "title": "iDesigner: A High-Resolution and Complex-Prompt Following Text-to-Image\n  Diffusion Model for Interior Design",
             "updated": "2023-12-07T14:37:01Z",
@@ -1709,8 +1709,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04323v1",
             "title": "Equivariant Scalar Fields for Molecular Docking with Fast Fourier\n  Transforms",
             "updated": "2023-12-07T14:32:32Z",
@@ -1734,8 +1734,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04318v1",
             "title": "MIMo: A Multi-Modal Infant Model for Studying Cognitive Development",
             "updated": "2023-12-07T14:21:31Z",
@@ -1763,8 +1763,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04316v1",
             "title": "Towards Knowledge-driven Autonomous Driving",
             "updated": "2023-12-07T14:17:17Z",
@@ -1802,8 +1802,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04314v1",
             "title": "GPT4SGG: Synthesizing Scene Graphs from Holistic and Region-specific\n  Narratives",
             "updated": "2023-12-07T14:11:00Z",
@@ -1828,8 +1828,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04312v1",
             "title": "Stochastic-Constrained Stochastic Optimization with Markovian Data",
             "updated": "2023-12-07T14:09:27Z",
@@ -1852,8 +1852,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04311v1",
             "title": "Finding Interpretable Class-Specific Patterns through Efficient Neural\n  Search",
             "updated": "2023-12-07T14:09:18Z",
@@ -1877,8 +1877,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04308v1",
             "title": "Multi Actor-Critic DDPG for Robot Action Space Decomposition: A\n  Framework to Control Large 3D Deformation of Soft Linear Objects",
             "updated": "2023-12-07T14:07:17Z",
@@ -1905,8 +1905,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04307v1",
             "title": "A Structural-Clustering Based Active Learning for Graph Neural Networks",
             "updated": "2023-12-07T14:04:38Z",
@@ -1930,8 +1930,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04306v1",
             "title": "nerblackbox: A High-level Library for Named Entity Recognition in Python",
             "updated": "2023-12-07T14:04:15Z",
@@ -1953,8 +1953,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04296v1",
             "title": "Cross-codex Learning for Reliable Scribe Identification in Medieval\n  Manuscripts",
             "updated": "2023-12-07T13:40:20Z",
@@ -1979,8 +1979,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04291v1",
             "title": "Simulating the Air Quality Impact of Prescribed Fires Using a Graph\n  Neural Network-Based PM$_{2.5}$ Emissions Forecasting System",
             "updated": "2023-12-07T13:18:36Z",
@@ -2005,8 +2005,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04289v1",
             "title": "Fast simulation of airfoil flow field via deep neural network",
             "updated": "2023-12-07T13:16:02Z",
@@ -2031,8 +2031,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04286v1",
             "title": "Effects of multiple edge cracks, shear force, elastic foundation, and\n  boundary conditions on bucking of small-scale pillars",
             "updated": "2023-12-07T13:08:57Z",
@@ -2056,8 +2056,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04281v1",
             "title": "Factor-Assisted Federated Learning for Personalized Optimization with\n  Heterogeneous Data",
             "updated": "2023-12-07T13:05:47Z",
@@ -2081,8 +2081,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04275v1",
             "title": "Estimating Countries with Similar Maternal Mortality Rate using Cluster\n  Analysis and Pairing Countries with Identical MMR",
             "updated": "2023-12-07T12:54:16Z",
@@ -2105,8 +2105,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04273v1",
             "title": "Invariant Random Forest: Tree-Based Model Solution for OOD\n  Generalization",
             "updated": "2023-12-07T12:53:05Z",
@@ -2129,8 +2129,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04248v1",
             "title": "TeMO: Towards Text-Driven 3D Stylization for Multi-Object Meshes",
             "updated": "2023-12-07T12:10:05Z",
@@ -2157,8 +2157,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04238v1",
             "title": "Long-lived Particles Anomaly Detection with Parametrized Quantum\n  Circuits",
             "updated": "2023-12-07T11:50:42Z",
@@ -2184,8 +2184,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04234v1",
             "title": "Graph Convolutions Enrich the Self-Attention in Transformers!",
             "updated": "2023-12-07T11:40:32Z",
@@ -2213,8 +2213,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04233v1",
             "title": "Fine-tune vision foundation model for crack segmentation in civil\n  infrastructures",
             "updated": "2023-12-07T11:39:11Z",
@@ -2237,8 +2237,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04231v1",
             "title": "Adventures of Trustworthy Vision-Language Models: A Survey",
             "updated": "2023-12-07T11:31:20Z",
@@ -2262,8 +2262,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04226v1",
             "title": "Dynamic Data-Driven Digital Twins for Blockchain Systems",
             "updated": "2023-12-07T11:18:57Z",
@@ -2290,8 +2290,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04225v1",
             "title": "TLCE: Transfer-Learning Based Classifier Ensembles for Few-Shot\n  Class-Incremental Learning",
             "updated": "2023-12-07T11:16:00Z",
@@ -2314,8 +2314,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04216v1",
             "title": "CODEX: A Cluster-Based Method for Explainable Reinforcement Learning",
             "updated": "2023-12-07T11:04:37Z",
@@ -2339,8 +2339,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04215v1",
             "title": "Guided Reconstruction with Conditioned Diffusion Models for Unsupervised\n  Anomaly Detection in Brain MRIs",
             "updated": "2023-12-07T11:03:42Z",
@@ -2369,8 +2369,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04214v1",
             "title": "Accurate Distances Measures and Machine Learning of the Texture-Property\n  Relation for Crystallographic Textures Represented by One-Point Statistics",
             "updated": "2023-12-07T11:02:41Z",
@@ -2395,8 +2395,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04209v1",
             "title": "Constrained Hierarchical Clustering via Graph Coarsening and Optimal\n  Cuts",
             "updated": "2023-12-07T10:52:06Z",
@@ -2419,8 +2419,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04204v1",
             "title": "Wavelength-multiplexed Delayed Inputs for Memory Enhancement of\n  Microring-based Reservoir Computing",
             "updated": "2023-12-07T10:40:37Z",
@@ -2445,8 +2445,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04193v1",
             "title": "Language Model Knowledge Distillation for Efficient Question Answering\n  in Spanish",
             "updated": "2023-12-07T10:21:22Z",
@@ -2471,8 +2471,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04189v1",
             "title": "Joint-Individual Fusion Structure with Fusion Attention Module for\n  Multi-Modal Skin Cancer Classification",
             "updated": "2023-12-07T10:16:21Z",
@@ -2500,8 +2500,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04180v1",
             "title": "AI and Jobs: Has the Inflection Point Arrived? Evidence from an Online\n  Labor Platform",
             "updated": "2023-12-07T10:06:34Z",
@@ -2528,8 +2528,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04174v1",
             "title": "Coherent energy and force uncertainty in deep learning force fields",
             "updated": "2023-12-07T09:49:05Z",
@@ -2555,8 +2555,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04171v1",
             "title": "A novel feature selection framework for incomplete data",
             "updated": "2023-12-07T09:45:14Z",
@@ -2577,8 +2577,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04168v1",
             "title": "Augmentation-Free Dense Contrastive Knowledge Distillation for Efficient\n  Semantic Segmentation",
             "updated": "2023-12-07T09:37:28Z",
@@ -2605,8 +2605,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04167v1",
             "title": "Mixture of Dynamical Variational Autoencoders for Multi-Source\n  Trajectory Modeling and Separation",
             "updated": "2023-12-07T09:36:31Z",
@@ -2629,8 +2629,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04166v1",
             "title": "Improving Communication Efficiency of Federated Distillation via\n  Accumulating Local Updates",
             "updated": "2023-12-07T09:36:18Z",
@@ -2657,8 +2657,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04163v1",
             "title": "Multi-scale Residual Transformer for VLF Lightning Transients\n  Classification",
             "updated": "2023-12-07T09:26:58Z",
@@ -2683,8 +2683,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/2312.04160v1",
             "title": "Text as Image: Learning Transferable Adapter for Multi-Label\n  Classification",
             "updated": "2023-12-07T09:22:20Z",

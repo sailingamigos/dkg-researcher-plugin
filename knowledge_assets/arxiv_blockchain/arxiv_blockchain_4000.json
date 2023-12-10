@@ -1,8 +1,8 @@
 [
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1612.03152v1",
             "title": "Optimized Execution of Business Processes on Blockchain",
             "updated": "2016-12-09T20:22:38Z",
@@ -26,8 +26,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1612.02916v2",
             "title": "Solida: A Blockchain Protocol Based on Reconfigurable Byzantine\n  Consensus",
             "updated": "2017-11-18T21:47:49Z",
@@ -54,8 +54,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1612.06244v1",
             "title": "The Blockchain: A Gentle Four Page Introduction",
             "updated": "2016-12-06T08:42:11Z",
@@ -77,8 +77,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1612.01188v2",
             "title": "Privacy on the Blockchain: Unique Ring Signatures",
             "updated": "2016-12-25T13:40:46Z",
@@ -99,8 +99,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1612.00407v2",
             "title": "Optimizing Governed Blockchains for Financial Process Authentications",
             "updated": "2017-05-16T13:14:15Z",
@@ -123,8 +123,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1611.06816v1",
             "title": "Service-Oriented Sharding with Aspen",
             "updated": "2016-11-21T14:53:56Z",
@@ -148,8 +148,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1610.07985v2",
             "title": "An Analysis of Attacks on Blockchain Consensus",
             "updated": "2016-11-20T17:36:55Z",
@@ -173,8 +173,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1609.07256v3",
             "title": "Towards Fairness of Cryptocurrency Payments",
             "updated": "2016-12-01T14:17:51Z",
@@ -198,8 +198,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1609.02598v1",
             "title": "Disintermediation of Inter-Blockchain Transactions",
             "updated": "2016-09-08T21:28:42Z",
@@ -222,8 +222,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1611.00315v1",
             "title": "Rapid Prototyping of a Text Mining Application for Cryptocurrency Market\n  Intelligence",
             "updated": "2016-08-28T20:04:25Z",
@@ -246,8 +246,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1610.02922v1",
             "title": "Towards an Ontology-Driven Blockchain Design for Supply Chain Provenance",
             "updated": "2016-08-28T19:37:00Z",
@@ -270,8 +270,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1608.06592v1",
             "title": "Application of Public Ledgers to Revocation in Distributed Access\n  Control",
             "updated": "2016-08-23T18:01:57Z",
@@ -293,8 +293,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1609.02789v2",
             "title": "Arachneum: Blockchain meets Distributed Web",
             "updated": "2017-04-05T23:00:20Z",
@@ -316,8 +316,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1608.05187v1",
             "title": "Blockchain in internet of things: Challenges and Solutions",
             "updated": "2016-08-18T06:01:34Z",
@@ -341,8 +341,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1608.00695v4",
             "title": "The blockchain: a new framework for robotic swarm systems",
             "updated": "2017-06-25T00:00:46Z",
@@ -368,8 +368,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1607.08401v1",
             "title": "On the security of the Blockchain Bix Protocol and Certificates",
             "updated": "2016-07-28T11:07:54Z",
@@ -394,8 +394,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1607.02420v1",
             "title": "Blockchain Mining Games",
             "updated": "2016-07-08T15:40:55Z",
@@ -420,8 +420,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1607.00174v3",
             "title": "Blockchain-based Proof of Location",
             "updated": "2020-02-24T14:16:19Z",
@@ -448,8 +448,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1606.07490v1",
             "title": "Enhancing Accountability and Trust in Distributed Ledgers",
             "updated": "2016-06-23T21:47:10Z",
@@ -474,8 +474,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1606.06530v1",
             "title": "New kids on the block: an analysis of modern blockchains",
             "updated": "2016-06-21T12:11:44Z",
@@ -502,8 +502,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1605.05438v1",
             "title": "The Blockchain Anomaly",
             "updated": "2016-05-18T04:51:33Z",
@@ -525,8 +525,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1605.02435v3",
             "title": "ZeroBlock: Timestamp-Free Prevention of Block-Withholding Attack in\n  Bitcoin",
             "updated": "2017-05-03T09:18:21Z",
@@ -548,8 +548,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1604.01383v1",
             "title": "Quantum Bitcoin: An Anonymous and Distributed Currency Secured by the\n  No-Cloning Theorem of Quantum Mechanics",
             "updated": "2016-04-05T19:45:28Z",
@@ -572,8 +572,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1603.07926v3",
             "title": "Rollerchain, a Blockchain With Safely Pruneable Full Blocks",
             "updated": "2016-08-23T22:19:26Z",
@@ -596,8 +596,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1601.01405v1",
             "title": "BitAV: Fast Anti-Malware by Distributed Blockchain Consensus and\n  Feedforward Scanning",
             "updated": "2016-01-07T06:02:16Z",
@@ -618,8 +618,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1511.05740v1",
             "title": "Understanding Modern Banking Ledgers through Blockchain Technologies:\n  Future of Transaction Processing and Smart Contracts on the Internet of Money",
             "updated": "2015-11-18T11:32:53Z",
@@ -642,8 +642,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1510.02037v2",
             "title": "Bitcoin-NG: A Scalable Blockchain Protocol",
             "updated": "2015-11-11T19:38:15Z",
@@ -667,8 +667,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1509.08443v2",
             "title": "Weaver: A High-Performance, Transactional Graph Database Based on\n  Refinable Timestamps",
             "updated": "2016-06-20T03:41:20Z",
@@ -694,8 +694,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1508.04868v2",
             "title": "From Pretty Good To Great: Enhancing PGP using Bitcoin and the\n  Blockchain",
             "updated": "2015-08-21T01:10:23Z",
@@ -717,8 +717,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1508.04364v1",
             "title": "Trends in crypto-currencies and blockchain technologies: A monetary\n  theory and regulation perspective",
             "updated": "2015-08-18T15:55:31Z",
@@ -742,8 +742,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1506.03471v1",
             "title": "Enigma: Decentralized Computation Platform with Guaranteed Privacy",
             "updated": "2015-06-10T20:34:12Z",
@@ -767,8 +767,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1508.05355v1",
             "title": "Autonomics: an autonomous and intelligent economic platform and next\n  generation money tool",
             "updated": "2015-06-08T01:31:46Z",
@@ -790,8 +790,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1506.01001v1",
             "title": "Linear Types Can Change the Blockchain",
             "updated": "2015-06-02T19:35:08Z",
@@ -812,8 +812,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1505.06895v2",
             "title": "Centrally Banked Cryptocurrencies",
             "updated": "2015-12-18T09:58:47Z",
@@ -835,8 +835,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1505.05343v2",
             "title": "Bitcoin Blockchain Dynamics: the Selfish-Mine Strategy in the Presence\n  of Propagation Delay",
             "updated": "2015-05-21T16:32:04Z",
@@ -860,8 +860,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1502.01504v2",
             "title": "Feedback based Reputation on top of the Bitcoin Blockchain",
             "updated": "2015-02-10T15:56:46Z",
@@ -882,8 +882,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1501.01039v1",
             "title": "Sidecoin: a snapshot mechanism for bootstrapping a blockchain",
             "updated": "2015-01-05T23:48:06Z",
@@ -906,8 +906,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1412.7935v1",
             "title": "Bitcoin Meets Strong Consistency",
             "updated": "2014-12-26T12:58:13Z",
@@ -931,8 +931,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1407.3561v1",
             "title": "IPFS - Content Addressed, Versioned, P2P File System",
             "updated": "2014-07-14T08:31:05Z",
@@ -954,8 +954,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1405.5741v1",
             "title": "Bitcoin Cooperative Proof-of-Stake",
             "updated": "2014-05-22T13:10:07Z",
@@ -976,8 +976,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1404.4275v9",
             "title": "A Bitcoin system with no mining and no history transactions: Build a\n  compact Bitcoin system",
             "updated": "2016-09-09T00:09:25Z",
@@ -1000,8 +1000,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1402.2009v1",
             "title": "Analysis of Hashrate-Based Double Spending",
             "updated": "2014-02-09T23:48:03Z",
@@ -1022,8 +1022,8 @@
     },
     {
         "public": {
-            "@context": "http://www.w3.org/2005/Atom",
-            "@type": "Entry",
+            "@context": "https://schema.org",
+            "@type": "ArxivArticle",
             "@id": "urn:research:http://arxiv.org/abs/1311.0243v5",
             "title": "Majority is not Enough: Bitcoin Mining is Vulnerable",
             "updated": "2013-11-15T20:45:48Z",
