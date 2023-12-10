@@ -1,0 +1,121 @@
+@prefix : <http://example.org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Classes
+:ScholarlyArticle rdf:type rdfs:Class .
+:Author rdf:type rdfs:Class .
+:Journal rdf:type rdfs:Class .
+:PublicationVenue rdf:type rdfs:Class .
+:FieldOfStudy rdf:type rdfs:Class .
+
+# Properties
+:paperId rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:corpusId rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:url rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:anyURI .
+
+:title rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:venue rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:publicationVenue rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :PublicationVenue .
+
+:year rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:integer .
+
+:externalIds rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:abstract rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:referenceCount rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:integer .
+
+:citationCount rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:integer .
+
+:influentialCitationCount rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:integer .
+
+:isOpenAccess rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:boolean .
+
+:openAccessPdf rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:anyURI .
+
+:fieldsOfStudy rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :FieldOfStudy .
+
+:s2FieldsOfStudy rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :FieldOfStudy .
+
+:publicationTypes rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+:publicationDate rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:date .
+
+:journal rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :Journal .
+
+:citationStyles rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+# Additional properties based on the JSON-LD object
+:alternateNames rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:string .
+
+:issn rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:string .
+
+:venueUrl rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:anyURI .
+
+:category rdf:type rdf:Property ;
+    rdfs:domain :FieldOfStudy ;
+    rdfs:range xsd:string .
+
+:source rdf:type rdf:Property ;
+    rdfs:domain :FieldOfStudy ;
+    rdfs:range xsd:string .
+
+:journalName rdf:type rdf:Property ;
+    rdfs:domain :Journal ;
+    rdfs:range xsd:string .
+
+:journalVolume rdf:type rdf:Property ;
+    rdfs:domain :Journal ;
+    rdfs:range xsd:string .

@@ -1,0 +1,1046 @@
+[
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1612.03152v1",
+            "title": "Optimized Execution of Business Processes on Blockchain",
+            "updated": "2016-12-09T20:22:38Z",
+            "published": "2016-12-09T20:22:38Z",
+            "summary": "Blockchain technology enables the execution of collaborative business\nprocesses involving untrusted parties without requiring a central authority.\nSpecifically, a process model comprising tasks performed by multiple parties\ncan be coordinated via smart contracts operating on the blockchain. The\nconsensus mechanism governing the blockchain thereby guarantees that the\nprocess model is followed by each party. However, the cost required for\nblockchain use is highly dependent on the volume of data recorded and the\nfrequency of data updates by smart contracts. This paper proposes an optimized\nmethod for executing business processes on top of commodity blockchain\ntechnology. The paper presents a method for compiling a process model into a\nsmart contract that encodes the preconditions for executing each task in the\nprocess using a space-optimized data structure. The method is empirically\ncompared to a previously proposed baseline by replaying execution logs,\nincluding one from a real-life business process, and measuring resource\nconsumption.",
+            "author": [
+                "Luciano Garc\u00eda-Ba\u00f1uelos",
+                "Alexander Ponomarev",
+                "Marlon Dumas",
+                "Ingo Weber"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1612.03152v1",
+                "http://arxiv.org/pdf/1612.03152v1"
+            ],
+            "primary_category": "cs.SE",
+            "category": [
+                "cs.SE"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1612.02916v2",
+            "title": "Solida: A Blockchain Protocol Based on Reconfigurable Byzantine\n  Consensus",
+            "updated": "2017-11-18T21:47:49Z",
+            "published": "2016-12-09T04:59:22Z",
+            "summary": "The decentralized cryptocurrency Bitcoin has experienced great success but\nalso encountered many challenges. One of the challenges has been the long\nconfirmation time. Another challenge is the lack of incentives at certain steps\nof the protocol, raising concerns for transaction withholding, selfish mining,\netc. To address these challenges, we propose Solida, a decentralized blockchain\nprotocol based on reconfigurable Byzantine consensus augmented by\nproof-of-work. Solida improves on Bitcoin in confirmation time, and provides\nsafety and liveness assuming the adversary control less than (roughly)\none-third of the total mining power.",
+            "author": [
+                "Ittai Abraham",
+                "Dahlia Malkhi",
+                "Kartik Nayak",
+                "Ling Ren",
+                "Alexander Spiegelman"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1612.02916v2",
+                "http://arxiv.org/pdf/1612.02916v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.DC",
+                "cs.GT"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1612.06244v1",
+            "title": "The Blockchain: A Gentle Four Page Introduction",
+            "updated": "2016-12-06T08:42:11Z",
+            "published": "2016-12-06T08:42:11Z",
+            "summary": "Blockchain is a distributed database that keeps a chronologically-growing\nlist (chain) of records (blocks) secure from tampering and revision. While\ncomputerisation has changed the nature of a ledger from clay tables in the old\ndays to digital records in modern days, blockchain technology is the first true\ninnovation in record keeping that could potentially revolutionise the basic\nprinciples of information keeping. In this note, we provide a brief\nself-contained introduction to how the blockchain works.",
+            "author": [
+                "Jan Hendrik Witte"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1612.06244v1",
+                "http://arxiv.org/pdf/1612.06244v1"
+            ],
+            "primary_category": "q-fin.GN",
+            "category": [
+                "q-fin.GN",
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1612.01188v2",
+            "title": "Privacy on the Blockchain: Unique Ring Signatures",
+            "updated": "2016-12-25T13:40:46Z",
+            "published": "2016-12-04T21:41:02Z",
+            "summary": "Ring signatures are cryptographic protocols designed to allow any member of a\ngroup to produce a signature on behalf of the group, without revealing the\nindividual signer's identity. This offers group members a level of anonymity\nnot attainable through generic digital signature schemes. We call this property\n'plausible deniability', or anonymity with respect to an anonymity set. We\nconcentrate in particular on implementing privacy on the blockchain,\nintroducing a unique ring signature scheme that works with existing blockchain\nsystems. We implement a unique ring signature (URS) scheme using secp256k1,\ncreating the first implementation compatible with blockchain libraries in this\nway, so as for easy implementation as an Ethereum smart contract. We review the\nprivacy and security properties offered by the scheme we have constructed, and\ncompare its efficiency with other commonly suggested approaches to privacy on\nthe blockchain.",
+            "author": [
+                "Rebekah Mercer"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1612.01188v2",
+                "http://arxiv.org/pdf/1612.01188v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1612.00407v2",
+            "title": "Optimizing Governed Blockchains for Financial Process Authentications",
+            "updated": "2017-05-16T13:14:15Z",
+            "published": "2016-12-01T20:09:39Z",
+            "summary": "We propose the formal study of governed blockchains that are owned and\ncontrolled by organizations and that neither create cryptocurrencies nor\nprovide any incentives to solvers of cryptographic puzzles. We view such\napproaches as frameworks in which system parts, such as the cryptographic\npuzzle, may be instantiated with different technology. Owners of such a\nblockchain procure puzzle solvers as resources they control, and use a\nmathematical model to compute optimal parameters for the cryptographic puzzle\nmechanism or other parts of the blockchain. We illustrate this approach with a\nuse case in which blockchains record hashes of financial process transactions\nto increase their trustworthiness and that of their audits. For Proof of Work\nas cryptographic puzzle, we develop a detailed mathematical model to derive\nMINLP optimization problems for computing optimal Proof of Work configuration\nparameters that trade off potentially conflicting aspects such as availability,\nresiliency, security, and cost in this governed setting. We demonstrate the\nutility of such a mining calculus by solving some instances of this problem.\nThis experimental validation is strengthened by statistical experiments that\nconfirm the validity of random variables used in formulating our mathematical\nmodel. We hope that our work may facilitate the creation of domain-specific\nblockchains for a wide range of applications such as trustworthy information in\nInternet of Things systems and bespoke improvements of legacy financial\nservices.",
+            "author": [
+                "Leif-Nissen Lundbaek",
+                "Andrea Callia D'Iddio",
+                "Michael Huth"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1612.00407v2",
+                "http://arxiv.org/pdf/1612.00407v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1611.06816v1",
+            "title": "Service-Oriented Sharding with Aspen",
+            "updated": "2016-11-21T14:53:56Z",
+            "published": "2016-11-21T14:53:56Z",
+            "summary": "The rise of blockchain-based cryptocurrencies has led to an explosion of\nservices using distributed ledgers as their underlying infrastructure. However,\ndue to inherently single-service oriented blockchain protocols, such services\ncan bloat the existing ledgers, fail to provide sufficient security, or\ncompletely forego the property of trustless auditability. Security concerns,\ntrust restrictions, and scalability limits regarding the resource requirements\nof users hamper the sustainable development of loosely-coupled services on\nblockchains.\n  This paper introduces Aspen, a sharded blockchain protocol designed to\nsecurely scale with increasing number of services. Aspen shares the same trust\nmodel as Bitcoin in a peer-to-peer network that is prone to extreme churn\ncontaining Byzantine participants. It enables introduction of new services\nwithout compromising the security, leveraging the trust assumptions, or\nflooding users with irrelevant messages.",
+            "author": [
+                "Adem Efe Gencer",
+                "Robbert van Renesse",
+                "Emin G\u00fcn Sirer"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1611.06816v1",
+                "http://arxiv.org/pdf/1611.06816v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.DC"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1610.07985v2",
+            "title": "An Analysis of Attacks on Blockchain Consensus",
+            "updated": "2016-11-20T17:36:55Z",
+            "published": "2016-10-25T17:49:53Z",
+            "summary": "We present and validate a novel mathematical model of the blockchain mining\nprocess and use it to conduct an economic evaluation of the double-spend\nattack, which is fundamental to all blockchain systems. Our analysis focuses on\nthe value of transactions that can be secured under a conventional double-spend\nattack, both with and without a concurrent eclipse attack. Our model quantifies\nthe importance of several factors that determine the attack's success,\nincluding confirmation depth, attacker mining power, and any confirmation\ndeadline set by the merchant. In general, the security of a transaction against\na double-spend attack increases roughly logarithmically with the depth of the\nblock, made easier by the increasing sum of coin turned-over (between\nindividuals) in the blocks, but more difficult by the increasing proof of work\nrequired. In recent blockchain data, we observed a median block turnover value\nof 6 BTC. Based on this value, a merchant requiring a single confirmation is\nprotected against only attackers that can increase the current mining power by\n1% or less. However, similar analysis shows that a merchant that requires a\nmuch longer 72 confirmations (~12 hours) will eliminate all potential profit\nfor any double-spend attacker adding mining power less than 40% of the current\nmining power.",
+            "author": [
+                "George Bissias",
+                "Brian Neil Levine",
+                "A. Pinar Ozisik",
+                "Gavin Andresen"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1610.07985v2",
+                "http://arxiv.org/pdf/1610.07985v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1609.07256v3",
+            "title": "Towards Fairness of Cryptocurrency Payments",
+            "updated": "2016-12-01T14:17:51Z",
+            "published": "2016-09-23T07:38:56Z",
+            "summary": "Motivated by the great success and adoption of Bitcoin, a number of\ncryptocurrencies such as Litecoin, Dogecoin, and Ethereum are becoming\nincreasingly popular. Although existing blockchain-based cryptocurrency schemes\ncan ensure reasonable security for transactions, they do not consider any\nnotion of fairness. Fair exchange allows two players to exchange digital\n\"items\", such as digital signatures, over insecure networks fairly, so that\neither each player gets the other's item, or neither player does. Given that\nblockchain participants typically do not trust each other, enabling fairness in\nexisting cryptocurrencies is an essential but insufficiently explored problem.\n  In this paper, we explore the solution space for enabling the fair exchange\nof a cryptocurrency payment for a receipt. We identify the timeliness of an\nexchange as an important property especially when one of the parties involved\nin the exchange is resource-constrained. We introduce the notion of strong\ntimeliness for a fair exchange protocol and propose two fair\npayment-for-receipt protocol instantiations that leverage functionality of the\nblockchain to achieve strong timeliness. We implement both and compare their\nsecurity and efficiency.",
+            "author": [
+                "Jian Liu",
+                "Wenting Li",
+                "Ghassan O. Karame",
+                "N. Asokan"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1609.07256v3",
+                "http://arxiv.org/pdf/1609.07256v3"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1609.02598v1",
+            "title": "Disintermediation of Inter-Blockchain Transactions",
+            "updated": "2016-09-08T21:28:42Z",
+            "published": "2016-09-08T21:28:42Z",
+            "summary": "Different versions of peer-to-peer electronic cash exist as data represented\nby separate blockchains. Payments between such systems cannot be sent directly\nfrom one party to another without going through a financial institution.\nBitcoin provided part of the solution but its utility is limited to\nintra-blockchain transactions. The benefits are lost if a trusted third party\nis required to execute inter-blockchain transactions. We propose a solution to\nthe inter-blockchain transaction problem using the same fundamental principles\nof Bitcoin. The protocol is described by the Uberledger framework, a\nhierarchical meta-blockchain layer that encapsulates information regarding the\nfidelity of peer-to-peer transaction facilitators.",
+            "author": [
+                "S. Matthew English",
+                "Fabrizio Orlandi",
+                "Soeren Auer"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1609.02598v1",
+                "http://arxiv.org/pdf/1609.02598v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1611.00315v1",
+            "title": "Rapid Prototyping of a Text Mining Application for Cryptocurrency Market\n  Intelligence",
+            "updated": "2016-08-28T20:04:25Z",
+            "published": "2016-08-28T20:04:25Z",
+            "summary": "Blockchain represents a technology for establishing a shared, immutable\nversion of the truth between a network of participants that do not trust one\nanother, and therefore has the potential to disrupt any financial or other\nindustries that rely on third-parties to establish trust. Recent trends in\ncomputing including: prevalence of Free and Open Source Software (FOSS); easy\naccess to High Performance Computing (HPC i.e. 'The Cloud'); and increasingly\nadvanced analytics capabilities such as Natural Language Processing (NLP) and\nMachine Learning (ML) allow for rapidly prototyping applications for analysis\nof trends in the emergence of Blockchain technology. A scaleable\nproof-of-concept pipeline that lays the groundwork for analysis of multiple\nstreams of semi-structured data posted on social media is demonstrated.\nPreliminary analysis and performance metrics are presented and discussed.\nFuture work is described that will scale the system to cloud-based, real-time,\nanalysis of multiple data streams, with Information Extraction (IE) (ex.\nsentiment analysis) and Machine Learning capability.",
+            "author": [
+                "Marek Laskowski",
+                "Henry M. Kim"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1611.00315v1",
+                "http://arxiv.org/pdf/1611.00315v1"
+            ],
+            "primary_category": "cs.CY",
+            "category": [
+                "cs.CY",
+                "cs.ET"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1610.02922v1",
+            "title": "Towards an Ontology-Driven Blockchain Design for Supply Chain Provenance",
+            "updated": "2016-08-28T19:37:00Z",
+            "published": "2016-08-28T19:37:00Z",
+            "summary": "An interesting research problem in our age of Big Data is that of determining\nprovenance. Granular evaluation of provenance of physical goods--e.g. tracking\ningredients of a pharmaceutical or demonstrating authenticity of luxury\ngoods--has often not been possible with today's items that are produced and\ntransported in complex, inter-organizational, often internationally-spanning\nsupply chains. Recent adoption of Internet of Things and Blockchain\ntechnologies give promise at better supply chain provenance. We are\nparticularly interested in the blockchain as many favoured use cases of\nblockchain are for provenance tracking. We are also interested in applying\nontologies as there has been some work done on knowledge provenance,\ntraceability, and food provenance using ontologies. In this paper, we make a\ncase for why ontologies can contribute to blockchain design. To support this\ncase, we analyze a traceability ontology and translate some of its\nrepresentations to smart contracts that execute a provenance trace and enforce\ntraceability constraints on the Ethereum blockchain platform.",
+            "author": [
+                "Henry M. Kim",
+                "Marek Laskowski"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1610.02922v1",
+                "http://arxiv.org/pdf/1610.02922v1"
+            ],
+            "primary_category": "cs.CY",
+            "category": [
+                "cs.CY",
+                "cs.AI"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1608.06592v1",
+            "title": "Application of Public Ledgers to Revocation in Distributed Access\n  Control",
+            "updated": "2016-08-23T18:01:57Z",
+            "published": "2016-08-23T18:01:57Z",
+            "summary": "There has recently been a flood of interest in potential new applications of\nblockchains, as well as proposals for more generic designs called public\nledgers. Most of the novel proposals have been in the financial sector.\nHowever, the public ledger is an abstraction that solves several of the\nfundamental problems in the design of secure distributed systems: global time\nin the form of a strict linear order of past events, globally consistent and\nimmutable view of the history, and enforcement of some application-specific\nsafety properties. This paper investigates the applications of public ledgers\nto access control and, more specifically, to group management in distributed\nsystems where entities are represented by their public keys and authorization\nis encoded into signed certificates. It is particularly difficult to handle\nnegative information, such as revocation of certificates or group membership,\nin the distributed setting. The linear order of events and global consistency\nsimplify these problems, but the enforcement of internal constraints in the\nledger implementation often presents problems. We show that different types of\nrevocation require slightly different properties from the ledger. We compare\nthe requirements with Bitcoin, the best known blockchain, and describe an\nefficient ledger design for membership revocation that combines ideas from\nblockchains and from web-PKI monitoring. While we use certificate-based\ngroup-membership management as the case study, the same ideas can be applied\nmore widely to rights revocation in distributed systems.",
+            "author": [
+                "Thanh Bui",
+                "Tuomas Aura"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1608.06592v1",
+                "http://arxiv.org/pdf/1608.06592v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1609.02789v2",
+            "title": "Arachneum: Blockchain meets Distributed Web",
+            "updated": "2017-04-05T23:00:20Z",
+            "published": "2016-08-22T20:27:28Z",
+            "summary": "Appearance of Bitcoin raise up evolution in currency. Blockchain database\nalso raise up possibilities to share important data between untrusted peers. In\nthis paper, we propose Arachneum, a decentralized, distributed, and\nmodel-view-controller-based web service using blockchain and new privileges\nmodel. Therefore, we can enjoy the freedom against censorship of government or\norganizations, keep transparency of our web services, fork our web services,\nand create/read/update/delete(CRUD) all model-view-controller(MVC) components\ndynamically.",
+            "author": [
+                "Donghyeon Lee"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1609.02789v2",
+                "http://arxiv.org/pdf/1609.02789v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.CY"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1608.05187v1",
+            "title": "Blockchain in internet of things: Challenges and Solutions",
+            "updated": "2016-08-18T06:01:34Z",
+            "published": "2016-08-18T06:01:34Z",
+            "summary": "The Internet of Things IoT is experiencing exponential growth in research and\nindustry, but it still suffers from privacy and security vulnerabilities.\nConventional security and privacy approaches tend to be inapplicable for IoT,\nmainly due to its decentralized topology and the resource-constraints of the\nmajority of its devices. BlockChain BC that underpin the crypto-currency\nBitcoin have been recently used to provide security and privacy in peer-to-peer\nnetworks with similar topologies to IoT. However, BCs are computationally\nexpensive and involve high bandwidth overhead and delays, which are not\nsuitable for IoT devices. This position paper proposes a new secure, private,\nand lightweight architecture for IoT, based on BC technology that eliminates\nthe overhead of BC while maintaining most of its security and privacy benefits.\nThe described method is investigated on a smart home application as a\nrepresentative case study for broader IoT applications. The proposed\narchitecture is hierarchical, and consists of smart homes, an overlay network\nand cloud storages coordinating data transactions with BC to provide privacy\nand security. Our design uses different types of BCs depending on where in the\nnetwork hierarchy a transaction occurs, and uses distributed trust methods to\nensure a decentralized topology. Qualitative evaluation of the architecture\nunder common threat models highlights its effectiveness in providing security\nand privacy for IoT applications.",
+            "author": [
+                "Ali Dorri",
+                "Salil S. Kanhere",
+                "Raja Jurdak"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1608.05187v1",
+                "http://arxiv.org/pdf/1608.05187v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.CY"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1608.00695v4",
+            "title": "The blockchain: a new framework for robotic swarm systems",
+            "updated": "2017-06-25T00:00:46Z",
+            "published": "2016-08-02T05:09:43Z",
+            "summary": "Swarms of robots will revolutionize many industrial applications, from\ntargeted material delivery to precision farming. However, several of the\nheterogeneous characteristics that make them ideal for certain future\napplications --- robot autonomy, decentralized control, collective emergent\nbehavior, etc. --- hinder the evolution of the technology from academic\ninstitutions to real-world problems. Blockchain, an emerging technology\noriginated in the Bitcoin field, demonstrates that by combining peer-to-peer\nnetworks with cryptographic algorithms a group of agents can reach an agreement\non a particular state of affairs and record that agreement without the need for\na controlling authority. The combination of blockchain with other distributed\nsystems, such as robotic swarm systems, can provide the necessary capabilities\nto make robotic swarm operations more secure, autonomous, flexible and even\nprofitable. This work explains how blockchain technology can provide innovative\nsolutions to four emergent issues in the swarm robotics research field. New\nsecurity, decision making, behavior differentiation and business models for\nswarm robotic systems are described by providing case scenarios and examples.\nFinally, limitations and possible future problems that arise from the\ncombination of these two technologies are described.",
+            "author": [
+                "Eduardo Castell\u00f3 Ferrer"
+            ],
+            "link": [
+                "http://dx.doi.org/10.1007/978-3-030-02683-7_77",
+                "http://arxiv.org/abs/1608.00695v4",
+                "http://arxiv.org/pdf/1608.00695v4"
+            ],
+            "primary_category": "cs.RO",
+            "category": [
+                "cs.RO",
+                "cs.DC",
+                "cs.ET",
+                "cs.MA",
+                "I.2.9; C.2.1; C.2.4; H.3.4; I.2.11"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1607.08401v1",
+            "title": "On the security of the Blockchain Bix Protocol and Certificates",
+            "updated": "2016-07-28T11:07:54Z",
+            "published": "2016-07-28T11:07:54Z",
+            "summary": "The BIX protocol is a blockchain-based protocol that allows distribution of\ncertificates linking a subject with his public key, hence providing a service\nsimilar to that of a PKI but without the need of a CA. In this paper we analyze\nthe security of the BIX protocol in a formal way, in four steps. First, we\nidentify formal security assumptions which are well-suited to this protocol.\nSecond, we present some attack scenarios against the BIX protocol. Third, we\nprovide a formal security proof that some of these attacks are not feasible\nunder our previously established assumptions. Finally, we show how another\nattack may be carried on.",
+            "author": [
+                "Riccardo Longo",
+                "Federico Pintore",
+                "Giancarlo Rinaldo",
+                "Massimiliano Sala"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1607.08401v1",
+                "http://arxiv.org/pdf/1607.08401v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "94A60"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1607.02420v1",
+            "title": "Blockchain Mining Games",
+            "updated": "2016-07-08T15:40:55Z",
+            "published": "2016-07-08T15:40:55Z",
+            "summary": "We study the strategic considerations of miners participating in the\nbitcoin's protocol. We formulate and study the stochastic game that underlies\nthese strategic considerations. The miners collectively build a tree of blocks,\nand they are paid when they create a node (mine a block) which will end up in\nthe path of the tree that is adopted by all. Since the miners can hide newly\nmined nodes, they play a game with incomplete information. Here we consider two\nsimplified forms of this game in which the miners have complete information. In\nthe simplest game the miners release every mined block immediately, but are\nstrategic on which blocks to mine. In the second more complicated game, when a\nblock is mined it is announced immediately, but it may not be released so that\nother miners cannot continue mining from it. A miner not only decides which\nblocks to mine, but also when to release blocks to other miners. In both games,\nwe show that when the computational power of each miner is relatively small,\ntheir best response matches the expected behavior of the bitcoin designer.\nHowever, when the computational power of a miner is large, he deviates from the\nexpected behavior, and other Nash equilibria arise.",
+            "author": [
+                "Aggelos Kiayias",
+                "Elias Koutsoupias",
+                "Maria Kyropoulou",
+                "Yiannis Tselekounis"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1607.02420v1",
+                "http://arxiv.org/pdf/1607.02420v1"
+            ],
+            "primary_category": "cs.GT",
+            "category": [
+                "cs.GT",
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1607.00174v3",
+            "title": "Blockchain-based Proof of Location",
+            "updated": "2020-02-24T14:16:19Z",
+            "published": "2016-07-01T09:35:28Z",
+            "summary": "Location-Based Services (LBSs) build upon geographic information to provide\nusers with location-dependent functionalities. In such a context, it is\nparticularly important that geographic locations claimed by users are\ntrustworthy. Centralized verification approaches proposed in the last few years\nare not satisfactory, as they entail a high risk to the privacy of users. In\nthis paper, we present and evaluate a novel decentralized,\ninfrastructure-independent proof-of-location scheme based on blockchain\ntechnology. Our scheme guarantees both location trustworthiness and user\nprivacy preservation.",
+            "author": [
+                "Giacomo Brambilla",
+                "Michele Amoretti",
+                "Francesco Medioli",
+                "Francesco Zanichelli"
+            ],
+            "link": [
+                "http://dx.doi.org/10.1109/QRS-C.2018.00038",
+                "http://arxiv.org/abs/1607.00174v3",
+                "http://arxiv.org/pdf/1607.00174v3"
+            ],
+            "primary_category": "cs.DC",
+            "category": [
+                "cs.DC",
+                "cs.CR",
+                "C.2.4"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1606.07490v1",
+            "title": "Enhancing Accountability and Trust in Distributed Ledgers",
+            "updated": "2016-06-23T21:47:10Z",
+            "published": "2016-06-23T21:47:10Z",
+            "summary": "Permisionless decentralized ledgers (\"blockchains\") such as the one\nunderlying the cryptocurrency Bitcoin allow anonymous participants to maintain\nthe ledger, while avoiding control or \"censorship\" by any single entity. In\ncontrast, permissioned decentralized ledgers exploit real-world trust and\naccountability, allowing only explicitly authorized parties to maintain the\nledger. Permissioned ledgers support more flexible governance and a wider\nchoice of consensus mechanisms. Both kinds of decentralized ledgers may be\nsusceptible to manipulation by participants who favor some transactions over\nothers. The real-world accountability underlying permissioned ledgers provides\nan opportunity to impose fairness constraints that can be enforced by\npenalizing violators after-the- fact. To date, however, this opportunity has\nnot been fully exploited, unnecessarily leaving participants latitude to\nmanipulate outcomes undetectably. This paper draws attention to this issue, and\nproposes design principles to make such manipulation more difficult, as well as\nspecific mechanisms to make it easier to detect when violations occur.",
+            "author": [
+                "Maurice Herlihy",
+                "Mark Moir"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1606.07490v1",
+                "http://arxiv.org/pdf/1606.07490v1"
+            ],
+            "primary_category": "cs.DC",
+            "category": [
+                "cs.DC",
+                "cs.CR",
+                "cs.CY",
+                "C.2.4; E.1; K.4.4"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1606.06530v1",
+            "title": "New kids on the block: an analysis of modern blockchains",
+            "updated": "2016-06-21T12:11:44Z",
+            "published": "2016-06-21T12:11:44Z",
+            "summary": "Half a decade after Bitcoin became the first widely used cryptocurrency,\nblockchains are receiving considerable interest from industry and the research\ncommunity. Modern blockchains feature services such as name registration and\nsmart contracts. Some employ new forms of consensus, such as proof-of-stake\ninstead of proof-of-work. However, these blockchains are so far relatively\npoorly investigated, despite the fact that they move considerable assets. In\nthis paper, we explore three representative, modern blockchains---Ethereum,\nNamecoin, and Peercoin. Our focus is on the features that set them apart from\nthe pure currency use case of Bitcoin. We investigate the blockchains' activity\nin terms of transactions and usage patterns, identifying some curiosities in\nthe process. For Ethereum, we are mostly interested in the smart contract\nfunctionality it offers. We also carry out a brief analysis of issues that are\nintroduced by negligent design of smart contracts. In the case of Namecoin, our\nfocus is how the name registration is used and has developed over time. For\nPeercoin, we are interested in the use of proof-of-stake, as this consensus\nalgorithm is poorly understood yet used to move considerable value. Finally, we\nrelate the above to the fundamental characteristics of the underlying\npeer-to-peer networks. We present a crawler for Ethereum and give statistics on\nthe network size. For Peercoin and Namecoin, we identify the relatively small\nsize of the networks and the weak bootstrapping process.",
+            "author": [
+                "Luke Anderson",
+                "Ralph Holz",
+                "Alexander Ponomarev",
+                "Paul Rimba",
+                "Ingo Weber"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1606.06530v1",
+                "http://arxiv.org/pdf/1606.06530v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.DC",
+                "C.2.2; C.2.4"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1605.05438v1",
+            "title": "The Blockchain Anomaly",
+            "updated": "2016-05-18T04:51:33Z",
+            "published": "2016-05-18T04:51:33Z",
+            "summary": "Most popular blockchain solutions, like Bitcoin, rely on proof-of-work,\nguaranteeing that the output of the consensus is agreed upon with high\nprobability. However, this probability depends on the delivery of messages and\nthat the computational power of the system is sufficiently scattered among\npools of nodes in the network so that no pool can mine more blocks faster than\nthe crowd. New approaches, like Ethereum, generalise the proof-of-work approach\nby letting individuals deploy their own private blockchain with high\ntransaction throughput. As companies are starting to deploy private chains, it\nhas become crucial to better understand the guarantees blockchains offer in\nsuch a small and controlled environment.\n  In this paper, we present the \\emph{Blockchain Anomaly}, an execution that we\nexperienced when building our private chain at NICTA/Data61. Even though this\nanomaly has never been acknowledged before, it may translate into dramatic\nconsequences for the user of blockchains. Named after the infamous Paxos\nanomaly, this anomaly makes dependent transactions, like \"Bob sends money to\nCarole after he received money from Alice\" impossible. This anomaly relies on\nthe fact that existing blockchains do not ensure consensus safety\ndeterministically: there is no way for Bob to make sure that Alice actually\nsent him coins without Bob using an external mechanism, like converting these\ncoins into a fiat currency that allows him to withdraw. We also explore smart\ncontracts as a potential alternative to transactions in order to freeze coins,\nand show implementations of smart contract that can suffer from the Blockchain\nanomaly and others that may cope with it.",
+            "author": [
+                "Christopher Natoli",
+                "Vincent Gramoli"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1605.05438v1",
+                "http://arxiv.org/pdf/1605.05438v1"
+            ],
+            "primary_category": "cs.DC",
+            "category": [
+                "cs.DC"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1605.02435v3",
+            "title": "ZeroBlock: Timestamp-Free Prevention of Block-Withholding Attack in\n  Bitcoin",
+            "updated": "2017-05-03T09:18:21Z",
+            "published": "2016-05-09T07:00:38Z",
+            "summary": "Bitcoin was recently introduced as a peer-to-peer electronic currency in\norder to facilitate transactions outside the traditional financial system. The\ncore of Bitcoin, the Blockchain, is the history of the transactions in the\nsystem maintained by all miners as a distributed shared register. New blocks in\nthe Blockchain contain the last transactions in the system and are added by\nminers after a block mining process that consists in solving a resource\nconsuming proof-of-work (cryptographic puzzle). The reward is a motivation for\nmining process but also could be an incentive for attacks such as selfish\nmining. In this paper we propose a solution for one of the major problems in\nBitcoin : selfish mining or block-withholding attack. This attack is conducted\nby adversarial or selfish miners in order to either earn undue rewards or waste\nthe computational power of honest miners. Contrary to recent solutions, our\nsolution, ZeroBlock, prevents block-withholding using a technique free of\ntimestamp that can be forged. Moreover, we show that our solution is compliant\nwith nodes churn.",
+            "author": [
+                "Siamak Solat",
+                "Maria Potop-Butucaru"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1605.02435v3",
+                "http://arxiv.org/pdf/1605.02435v3"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1604.01383v1",
+            "title": "Quantum Bitcoin: An Anonymous and Distributed Currency Secured by the\n  No-Cloning Theorem of Quantum Mechanics",
+            "updated": "2016-04-05T19:45:28Z",
+            "published": "2016-04-05T19:45:28Z",
+            "summary": "The digital currency Bitcoin has had remarkable growth since it was first\nproposed in 2008. Its distributed nature allows currency transactions without a\ncentral authority by using cryptographic methods and a data structure called\nthe blockchain. In this paper we use the no-cloning theorem of quantum\nmechanics to introduce Quantum Bitcoin, a Bitcoin-like currency that runs on a\nquantum computer. We show that our construction of quantum shards and two\nblockchains allows untrusted peers to mint quantum money without risking the\nintegrity of the currency. The Quantum Bitcoin protocol has several advantages\nover classical Bitcoin, including immediate local verification of transactions.\nThis is a major improvement since we no longer need the computationally\nintensive and time-consuming method Bitcoin uses to record all transactions in\nthe blockchain. Instead, Quantum Bitcoin only records newly minted currency\nwhich drastically reduces the footprint and increases efficiency. We present\nformal security proofs for counterfeiting resistance and show that a quantum\nbitcoin can be re-used a large number of times before wearing out - just like\nordinary coins and banknotes. Quantum Bitcoin is the first distributed quantum\nmoney system and we show that the lack of a paper trail implies full anonymity\nfor the users. In addition, there are no transaction fees and the system can\nscale to any transaction volume.",
+            "author": [
+                "Jonathan Jogenfors"
+            ],
+            "link": [
+                "http://dx.doi.org/10.1109/BLOC.2019.8751473",
+                "http://arxiv.org/abs/1604.01383v1",
+                "http://arxiv.org/pdf/1604.01383v1"
+            ],
+            "primary_category": "quant-ph",
+            "category": [
+                "quant-ph",
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1603.07926v3",
+            "title": "Rollerchain, a Blockchain With Safely Pruneable Full Blocks",
+            "updated": "2016-08-23T22:19:26Z",
+            "published": "2016-03-25T14:38:17Z",
+            "summary": "Bitcoin is the first successful decentralized global digital cash system. Its\nmining process requires intense computational resources, therefore its\nusefulness remains a disputable topic. We aim to solve three problems with\nBitcoin and other blockchain systems of today by repurposing their work. First,\nspace to store a blockchain is growing linearly with number of transactions.\nSecond, a honest node is forced to be irrational regarding storing full blocks\nby a way implementations are done. Third, a trustless bootstrapping process for\na new node involves downloading and processing all the transactions ever\nwritten into a blockchain.\n  In this paper we present a new consensus protocol for Bitcoin-like\npeer-to-peer systems where a right to generate a block is given to a party\nproviding non-interactive proofs of storing a subset of the past state\nsnapshots. Unlike the blockchain systems in use today, a network using our\nprotocol is safe if the nodes prune full blocks not needed for mining.\n  We extend the GKL model to describe our Proof-of-Work scheme and a\ntransactional model modifications needed for it. We provide a detailed analysis\nof our protocol and proofs of its security.",
+            "author": [
+                "Alexander Chepurnoy",
+                "Mario Larangeira",
+                "Alexander Ojiganov"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1603.07926v3",
+                "http://arxiv.org/pdf/1603.07926v3"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1601.01405v1",
+            "title": "BitAV: Fast Anti-Malware by Distributed Blockchain Consensus and\n  Feedforward Scanning",
+            "updated": "2016-01-07T06:02:16Z",
+            "published": "2016-01-07T06:02:16Z",
+            "summary": "I present the design and implementation of a novel anti-malware environment\ncalled BitAV. BitAV allows for the decentralization of the update and\nmaintenance mechanisms of the software, traditionally performed by a central\nhost, and uses a staggered scanning mechanism in order to improve performance.\nThe peer-to-peer network maintenance mechanism lowered the average update\npropagation speed by 500% and is far less susceptible to targeted\ndenial-of-service attacks. The feedforward scanning mechanism significantly\nimproved end-to-end performance of the malware matching system, to a degree of\nan average 14x increase, by decomposing the file matching process into\nefficient queries that operate in verifiably constant time.",
+            "author": [
+                "Charles Noyes"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1601.01405v1",
+                "http://arxiv.org/pdf/1601.01405v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1511.05740v1",
+            "title": "Understanding Modern Banking Ledgers through Blockchain Technologies:\n  Future of Transaction Processing and Smart Contracts on the Internet of Money",
+            "updated": "2015-11-18T11:32:53Z",
+            "published": "2015-11-18T11:32:53Z",
+            "summary": "In this chapter we provide an overview of the concept of blockchain\ntechnology and its potential to disrupt the world of banking through\nfacilitating global money remittance, smart contracts, automated banking\nledgers and digital assets. In this regard, we first provide a brief overview\nof the core aspects of this technology, as well as the second-generation\ncontract-based developments. From there we discuss key issues that must be\nconsidered in developing such ledger based technologies in a banking context.",
+            "author": [
+                "Gareth William Peters",
+                "Efstathios Panayi"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1511.05740v1",
+                "http://arxiv.org/pdf/1511.05740v1"
+            ],
+            "primary_category": "cs.CY",
+            "category": [
+                "cs.CY",
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1510.02037v2",
+            "title": "Bitcoin-NG: A Scalable Blockchain Protocol",
+            "updated": "2015-11-11T19:38:15Z",
+            "published": "2015-10-07T17:35:32Z",
+            "summary": "Cryptocurrencies, based on and led by Bitcoin, have shown promise as\ninfrastructure for pseudonymous online payments, cheap remittance, trustless\ndigital asset exchange, and smart contracts. However, Bitcoin-derived\nblockchain protocols have inherent scalability limits that trade-off between\nthroughput and latency and withhold the realization of this potential.\n  This paper presents Bitcoin-NG, a new blockchain protocol designed to scale.\nBased on Bitcoin's blockchain protocol, Bitcoin-NG is Byzantine fault tolerant,\nis robust to extreme churn, and shares the same trust model obviating\nqualitative changes to the ecosystem.\n  In addition to Bitcoin-NG, we introduce several novel metrics of interest in\nquantifying the security and efficiency of Bitcoin-like blockchain protocols.\nWe implement Bitcoin-NG and perform large-scale experiments at 15% the size of\nthe operational Bitcoin system, using unchanged clients of both protocols.\nThese experiments demonstrate that Bitcoin-NG scales optimally, with bandwidth\nlimited only by the capacity of the individual nodes and latency limited only\nby the propagation time of the network.",
+            "author": [
+                "Ittay Eyal",
+                "Adem Efe Gencer",
+                "Emin Gun Sirer",
+                "Robbert van Renesse"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1510.02037v2",
+                "http://arxiv.org/pdf/1510.02037v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1509.08443v2",
+            "title": "Weaver: A High-Performance, Transactional Graph Database Based on\n  Refinable Timestamps",
+            "updated": "2016-06-20T03:41:20Z",
+            "published": "2015-09-28T19:30:30Z",
+            "summary": "Graph databases have become an increasingly common infrastructure component.\nYet existing systems either operate on offline snapshots, provide weak\nconsistency guarantees, or use expensive concurrency control techniques that\nlimit performance. In this paper, we introduce a new distributed graph\ndatabase, called Weaver, which enables efficient, transactional graph analyses\nas well as strictly serializable ACID transactions on dynamic graphs. The key\ninsight that allows Weaver to combine strict serializability with horizontal\nscalability and high performance is a novel request ordering mechanism called\nrefinable timestamps. This technique couples coarse-grained vector timestamps\nwith a fine-grained timeline oracle to pay the overhead of strong consistency\nonly when needed. Experiments show that Weaver enables a Bitcoin blockchain\nexplorer that is 8x faster than Blockchain.info, and achieves 12x higher\nthroughput than the Titan graph database on social network workloads and 4x\nlower latency than GraphLab on offline graph traversal workloads.",
+            "author": [
+                "Ayush Dubey",
+                "Greg D. Hill",
+                "Robert Escriva",
+                "Emin G\u00fcn Sirer"
+            ],
+            "link": [
+                "http://dx.doi.org/10.14778/2983200.2983202",
+                "http://arxiv.org/abs/1509.08443v2",
+                "http://arxiv.org/pdf/1509.08443v2"
+            ],
+            "primary_category": "cs.DC",
+            "category": [
+                "cs.DC",
+                "cs.DB"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1508.04868v2",
+            "title": "From Pretty Good To Great: Enhancing PGP using Bitcoin and the\n  Blockchain",
+            "updated": "2015-08-21T01:10:23Z",
+            "published": "2015-08-20T03:45:05Z",
+            "summary": "PGP is built upon a Distributed Web of Trust in which the trustworthiness of\na user is established by others who can vouch through a digital signature for\nthat particular identity. Preventing its wholesale adoption are a number of\ninherent weaknesses to include (but not limited to) the following: 1) Trust\nRelationships are built on a subjective honor system, 2) Only first degree\nrelationships can be fully trusted, 3) Levels of trust are difficult to\nquantify with actual values, and 4) Issues with the Web of Trust itself\n(Certification and Endorsement). Although the security that PGP provides is\nproven to be reliable, it has largely failed to garner large scale adoption. In\nthis paper, we propose several novel contributions to address the\naforementioned issues with PGP and associated Web of Trust. To address the\nsubjectivity of the Web of Trust, we provide a new certificate format based on\nBitcoin which allows a user to verify a PGP certificate using Bitcoin\nidentity-verification transactions - forming first degree trust relationships\nthat are tied to actual values (i.e., number of Bitcoins transferred during\ntransaction). Secondly, we present the design of a novel Distributed PGP key\nserver that leverages the Bitcoin transaction blockchain to store and retrieve\nBitcoin-Based PGP certificates. Lastly, we provide a web prototype application\nthat demonstrates several of these capabilities in an actual environment.",
+            "author": [
+                "Duane Wilson",
+                "Giuseppe Ateniese"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1508.04868v2",
+                "http://arxiv.org/pdf/1508.04868v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1508.04364v1",
+            "title": "Trends in crypto-currencies and blockchain technologies: A monetary\n  theory and regulation perspective",
+            "updated": "2015-08-18T15:55:31Z",
+            "published": "2015-08-18T15:55:31Z",
+            "summary": "The internet era has generated a requirement for low cost, anonymous and\nrapidly verifiable transactions to be used for online barter, and fast settling\nmoney have emerged as a consequence. For the most part, e-money has fulfilled\nthis role, but the last few years have seen two new types of money emerge.\nCentralised virtual currencies, usually for the purpose of transacting in\nsocial and gaming economies, and crypto-currencies, which aim to eliminate the\nneed for financial intermediaries by offering direct peer-to-peer online\npayments.\n  We describe the historical context which led to the development of these\ncurrencies and some modern and recent trends in their uptake, in terms of both\nusage in the real economy and as investment products. As these currencies are\npurely digital constructs, with no government or local authority backing, we\nthen discuss them in the context of monetary theory, in order to determine how\nthey may be have value under each. Finally, we provide an overview of the state\nof regulatory readiness in terms of dealing with transactions in these\ncurrencies in various regions of the world.",
+            "author": [
+                "Gareth W. Peters",
+                "Efstathios Panayi",
+                "Ariane Chapelle"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1508.04364v1",
+                "http://arxiv.org/pdf/1508.04364v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.CY"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1506.03471v1",
+            "title": "Enigma: Decentralized Computation Platform with Guaranteed Privacy",
+            "updated": "2015-06-10T20:34:12Z",
+            "published": "2015-06-10T20:34:12Z",
+            "summary": "A peer-to-peer network, enabling different parties to jointly store and run\ncomputations on data while keeping the data completely private. Enigma's\ncomputational model is based on a highly optimized version of secure\nmulti-party computation, guaranteed by a verifiable secret-sharing scheme. For\nstorage, we use a modified distributed hashtable for holding secret-shared\ndata. An external blockchain is utilized as the controller of the network,\nmanages access control, identities and serves as a tamper-proof log of events.\nSecurity deposits and fees incentivize operation, correctness and fairness of\nthe system. Similar to Bitcoin, Enigma removes the need for a trusted third\nparty, enabling autonomous control of personal data. For the first time, users\nare able to share their data with cryptographic guarantees regarding their\nprivacy.",
+            "author": [
+                "Guy Zyskind",
+                "Oz Nathan",
+                "Alex Pentland"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1506.03471v1",
+                "http://arxiv.org/pdf/1506.03471v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR",
+                "cs.DC"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1508.05355v1",
+            "title": "Autonomics: an autonomous and intelligent economic platform and next\n  generation money tool",
+            "updated": "2015-06-08T01:31:46Z",
+            "published": "2015-06-08T01:31:46Z",
+            "summary": "We propose a high level network architecture for an economic system that\nintegrates money, governance and reputation. We introduce a method for issuing,\nand redeeming a digital coin using a mechanism to create a sustainable global\neconomy and a free market. To maintain a currency's value over time, and\ntherefore be money proper, we claim it must be issued by the buyer and backed\nfor value by the seller, exchanging the products of labour, in a free market.\nWe also claim that a free market and sustainable economy cannot be maintained\nusing economically arbitrary creation and allocation of money. Nakamoto, with\nBitcoin, introduced a new technology called the cryptographic blockchain to\noperate a decentralised and distributed accounts ledger without the need for an\nuntrusted third party. This blockchain technology creates and allocates new\ndigital currency as a reward for \"proof-of-work\", to secure the network.\nHowever, no currency, digital or otherwise, has solved how to create and\nallocate money in an economically non-arbitrary way, or how to govern and trust\na world-scale free enterprise money system. We propose an \"Ontologically\nNetworked Exchange\" (ONE), with purpose as its highest order domain. Each\npurpose is defined in a contract, and the entire economy of contracts is\nstructured in a unified ontology. We claim to secure the ONE network using\neconomically non-arbitrary methodologies and economically incented human\nbehaviour. Decisions influenced by reputation help to secure the network\nwithout an untrusted third party. The stack of contracts, organised in a\nunified ontology, functions as a super recursive algorithm, with individual use\nprogramming the algorithm, acting as the \"oracle\". The state of the algorithm\nbecomes the \"memory\" of a scalable and trustable artificial intelligence (AI).\nThis AI offers a new platform for what we call the \"Autonomy-of-Things\" (AoT).",
+            "author": [
+                "Benjamin Munro",
+                "Julia McLachlan"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1508.05355v1",
+                "http://arxiv.org/pdf/1508.05355v1"
+            ],
+            "primary_category": "q-fin.EC",
+            "category": [
+                "q-fin.EC"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1506.01001v1",
+            "title": "Linear Types Can Change the Blockchain",
+            "updated": "2015-06-02T19:35:08Z",
+            "published": "2015-06-02T19:35:08Z",
+            "summary": "We give an interpretation of full classical linear logic, and linear proofs\nin terms of operations on the blockchain.",
+            "author": [
+                "Lucius Gregory Meredith"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1506.01001v1",
+                "http://arxiv.org/pdf/1506.01001v1"
+            ],
+            "primary_category": "cs.LO",
+            "category": [
+                "cs.LO"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1505.06895v2",
+            "title": "Centrally Banked Cryptocurrencies",
+            "updated": "2015-12-18T09:58:47Z",
+            "published": "2015-05-26T10:54:10Z",
+            "summary": "Current cryptocurrencies, starting with Bitcoin, build a decentralized\nblockchain-based transaction ledger, maintained through proofs-of-work that\nalso generate a monetary supply. Such decentralization has benefits, such as\nindependence from national political control, but also significant limitations\nin terms of scalability and computational cost. We introduce RSCoin, a\ncryptocurrency framework in which central banks maintain complete control over\nthe monetary supply, but rely on a distributed set of authorities, or\nmintettes, to prevent double-spending. While monetary policy is centralized,\nRSCoin still provides strong transparency and auditability guarantees. We\ndemonstrate, both theoretically and experimentally, the benefits of a modest\ndegree of centralization, such as the elimination of wasteful hashing and a\nscalable system for avoiding double-spending attacks.",
+            "author": [
+                "George Danezis",
+                "Sarah Meiklejohn"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1505.06895v2",
+                "http://arxiv.org/pdf/1505.06895v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1505.05343v2",
+            "title": "Bitcoin Blockchain Dynamics: the Selfish-Mine Strategy in the Presence\n  of Propagation Delay",
+            "updated": "2015-05-21T16:32:04Z",
+            "published": "2015-05-20T12:27:20Z",
+            "summary": "In the context of the `selfish-mine' strategy proposed by Eyal and Sirer, we\nstudy the effect of propagation delay on the evolution of the Bitcoin\nblockchain. First, we use a simplified Markov model that tracks the contrasting\nstates of belief about the blockchain of a small pool of miners and the `rest\nof the community' to establish that the use of block-hiding strategies, such as\nselfish-mine, causes the rate of production of orphan blocks to increase. Then\nwe use a spatial Poisson process model to study values of Eyal and Sirer's\nparameter $\\gamma$, which denotes the proportion of the honest community that\nmine on a previously-secret block released by the pool in response to the\nmining of a block by the honest community. Finally, we use discrete-event\nsimulation to study the behaviour of a network of Bitcoin miners, a proportion\nof which is colluding in using the selfish-mine strategy, under the assumption\nthat there is a propagation delay in the communication of information between\nminers.",
+            "author": [
+                "Johannes G\u00f6bel",
+                "Paul Keeler",
+                "Anthony E. Krzesinski",
+                "Peter G. Taylor"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1505.05343v2",
+                "http://arxiv.org/pdf/1505.05343v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1502.01504v2",
+            "title": "Feedback based Reputation on top of the Bitcoin Blockchain",
+            "updated": "2015-02-10T15:56:46Z",
+            "published": "2015-02-05T11:17:53Z",
+            "summary": "The ability to assess the reputation of a member in a web community is a need\naddressed in many different ways according to the many different stages in\nwhich the nature of communities has evolved over time. In the case of\nreputation of goods/services suppliers, the solutions available to prevent the\nfeedback abuse are generally reliable but centralized under the control of few\nbig Internet companies. In this paper we show how a decentralized and\ndistributed feedback management system can be built on top of the Bitcoin\nblockchain",
+            "author": [
+                "Davide Carboni"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1502.01504v2",
+                "http://arxiv.org/pdf/1502.01504v2"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1501.01039v1",
+            "title": "Sidecoin: a snapshot mechanism for bootstrapping a blockchain",
+            "updated": "2015-01-05T23:48:06Z",
+            "published": "2015-01-05T23:48:06Z",
+            "summary": "Sidecoin is a mechanism that allows a snapshot to be taken of Bitcoin's\nblockchain. We compile a list of Bitcoin's unspent transaction outputs, then\nuse these outputs and their corresponding balances to bootstrap a new\nblockchain. This allows the preservation of Bitcoin's economic state in the\ncontext of a new blockchain, which may provide new features and technical\ninnovations.",
+            "author": [
+                "Joseph Krug",
+                "Jack Peterson"
+            ],
+            "link": [
+                "http://dx.doi.org/10.13140/2.1.4577.1841",
+                "http://arxiv.org/abs/1501.01039v1",
+                "http://arxiv.org/pdf/1501.01039v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1412.7935v1",
+            "title": "Bitcoin Meets Strong Consistency",
+            "updated": "2014-12-26T12:58:13Z",
+            "published": "2014-12-26T12:58:13Z",
+            "summary": "The Bitcoin system only provides eventual consistency. For everyday life, the\ntime to confirm a Bitcoin transaction is prohibitively slow. In this paper we\npropose a new system, built on the Bitcoin blockchain, which enables strong\nconsistency. Our system, PeerCensus, acts as a certification authority, manages\npeer identities in a peer-to-peer network, and ultimately enhances Bitcoin and\nsimilar systems with strong consistency. Our extensive analysis shows that\nPeerCensus is in a secure state with high probability. We also show how\nDiscoin, a Bitcoin variant that decouples block creation and transaction\nconfirmation, can be built on top of PeerCensus, enabling real-time payments.\nUnlike Bitcoin, once transactions in Discoin are committed, they stay\ncommitted.",
+            "author": [
+                "Christian Decker",
+                "Jochen Seidel",
+                "Roger Wattenhofer"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1412.7935v1",
+                "http://arxiv.org/pdf/1412.7935v1"
+            ],
+            "primary_category": "cs.DC",
+            "category": [
+                "cs.DC",
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1407.3561v1",
+            "title": "IPFS - Content Addressed, Versioned, P2P File System",
+            "updated": "2014-07-14T08:31:05Z",
+            "published": "2014-07-14T08:31:05Z",
+            "summary": "The InterPlanetary File System (IPFS) is a peer-to-peer distributed file\nsystem that seeks to connect all computing devices with the same system of\nfiles. In some ways, IPFS is similar to the Web, but IPFS could be seen as a\nsingle BitTorrent swarm, exchanging objects within one Git repository. In other\nwords, IPFS provides a high throughput content-addressed block storage model,\nwith content-addressed hyper links. This forms a generalized Merkle DAG, a data\nstructure upon which one can build versioned file systems, blockchains, and\neven a Permanent Web. IPFS combines a distributed hashtable, an incentivized\nblock exchange, and a self-certifying namespace. IPFS has no single point of\nfailure, and nodes do not need to trust each other.",
+            "author": [
+                "Juan Benet"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1407.3561v1",
+                "http://arxiv.org/pdf/1407.3561v1"
+            ],
+            "primary_category": "cs.NI",
+            "category": [
+                "cs.NI",
+                "cs.DC"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1405.5741v1",
+            "title": "Bitcoin Cooperative Proof-of-Stake",
+            "updated": "2014-05-22T13:10:07Z",
+            "published": "2014-05-22T13:10:07Z",
+            "summary": "A hard-fork reconfiguration of the peer to peer Bitcoin network is described\nthat substitutes tamper-evident logs and proof-of-stake consensus for\nproof-of-work consensus. The block creation rewards and transaction fees are\nreallocated to establish and staff a secure financial data network capable of\nhandling the world's transactions with subsecond response time. The new system\npays dividends to stake-offering bitcoin holders. In contrast to Satoshi\nNakamoto's mesh network consisting of competing peers, this system uses an\nenterprise class network that is efficient, robust, and scalable, consisting of\ncooperating peers. The network backbone nodes host trustless nomadic agents.\nThousands of distributed full nodes are paid to replicate a singleton\nblockchain built upon every 10 minutes by a nomadic mint agent whose actions\nare verified by its peers. This arrangement enables immediate acknowledgment to\nan issuing node that its transaction has been accepted. Less effort means that\nsubsidized transaction costs will be lower. Network reconfiguration enables the\nprocessing of numerous microtransactions. Stake-weighted distributed consensus\nis achieved when necessary with less than one-half arbitrarily faulty nodes.\nImportant invariants of the Satoshi Social Contract between core developers and\nusers are maintained: The reward schedule, the blockchain format, the fixed\nnumber of bitcoins, and the decentralized, trustless protocol are untouched.\nThe system remains a global distributed database, with additions to the\ndatabase by consent of the majority, based on a set of transparent rules they\nfollow.",
+            "author": [
+                "Stephen L. Reed"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1405.5741v1",
+                "http://arxiv.org/pdf/1405.5741v1"
+            ],
+            "primary_category": "cs.CY",
+            "category": [
+                "cs.CY"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1404.4275v9",
+            "title": "A Bitcoin system with no mining and no history transactions: Build a\n  compact Bitcoin system",
+            "updated": "2016-09-09T00:09:25Z",
+            "published": "2014-04-15T04:13:37Z",
+            "summary": "We give an explicit definition of decentralization and show you that\ndecentralization is almost impossible for the current stage and Bitcoin is the\nfirst truly noncentralized currency in the currency history. We propose a new\nframework of noncentralized cryptocurrency system with an assumption of the\nexistence of a weak adversary for a bank alliance. It abandons the mining\nprocess and blockchain, and removes history transactions from data\nsynchronization. We propose a consensus algorithm named Converged Consensus for\na noncentralized cryptocurrency system.",
+            "author": [
+                "Xiaochao Qian"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1404.4275v9",
+                "http://arxiv.org/pdf/1404.4275v9"
+            ],
+            "primary_category": "cs.CE",
+            "category": [
+                "cs.CE",
+                "cs.CR",
+                "q-fin.GN"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1402.2009v1",
+            "title": "Analysis of Hashrate-Based Double Spending",
+            "updated": "2014-02-09T23:48:03Z",
+            "published": "2014-02-09T23:48:03Z",
+            "summary": "Bitcoin is the world's first decentralized digital currency. Its main\ntechnical innovation is the use of a blockchain and hash-based proof of work to\nsynchronize transactions and prevent double-spending the currency. While the\nqualitative nature of this system is well understood, there is widespread\nconfusion about its quantitative aspects and how they relate to attack vectors\nand their countermeasures. In this paper we take a look at the stochastic\nprocesses underlying typical attacks and their resulting probabilities of\nsuccess.",
+            "author": [
+                "Meni Rosenfeld"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1402.2009v1",
+                "http://arxiv.org/pdf/1402.2009v1"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    },
+    {
+        "public": {
+            "@context": "http://www.w3.org/2005/Atom",
+            "@type": "Entry",
+            "@id": "urn:research:http://arxiv.org/abs/1311.0243v5",
+            "title": "Majority is not Enough: Bitcoin Mining is Vulnerable",
+            "updated": "2013-11-15T20:45:48Z",
+            "published": "2013-11-01T18:15:21Z",
+            "summary": "The Bitcoin cryptocurrency records its transactions in a public log called\nthe blockchain. Its security rests critically on the distributed protocol that\nmaintains the blockchain, run by participants called miners. Conventional\nwisdom asserts that the protocol is incentive-compatible and secure against\ncolluding minority groups, i.e., it incentivizes miners to follow the protocol\nas prescribed.\n  We show that the Bitcoin protocol is not incentive-compatible. We present an\nattack with which colluding miners obtain a revenue larger than their fair\nshare. This attack can have significant consequences for Bitcoin: Rational\nminers will prefer to join the selfish miners, and the colluding group will\nincrease in size until it becomes a majority. At this point, the Bitcoin system\nceases to be a decentralized currency.\n  Selfish mining is feasible for any group size of colluding miners. We propose\na practical modification to the Bitcoin protocol that protects against selfish\nmining pools that command less than 1/4 of the resources. This threshold is\nlower than the wrongly assumed 1/2 bound, but better than the current reality\nwhere a group of any size can compromise the system.",
+            "author": [
+                "Ittay Eyal",
+                "Emin Gun Sirer"
+            ],
+            "link": [
+                "http://arxiv.org/abs/1311.0243v5",
+                "http://arxiv.org/pdf/1311.0243v5"
+            ],
+            "primary_category": "cs.CR",
+            "category": [
+                "cs.CR"
+            ]
+        }
+    }
+]
