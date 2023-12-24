@@ -2,7 +2,7 @@
 
 import quart
 import quart_cors
-from maestro import get_answer, load_knowledge_assets, log_to_influxdb
+from maestro import get_answer, load_knowledge_assets, connect_to_otnode, log_to_influxdb
 from quart import request, jsonify, redirect
 from influxdb import InfluxDBClient
 
@@ -68,6 +68,7 @@ async def ask_question():
 
 def main():
     """Main function"""
+    connect_to_otnode ()
     load_knowledge_assets('knowledge_assets')
     app.run(debug=True, host="0.0.0.0", port=8080)
 

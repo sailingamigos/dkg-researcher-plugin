@@ -1,11 +1,27 @@
 """Maestro module."""
 
+import os
 import json
 import glob
 from datetime import datetime
 from rdflib import Graph
+from dotenv import load_dotenv
+from quart import request, jsonify, redirect
+from dkg import DKG
+from dkg.providers import BlockchainProvider, NodeHTTPProvider
 
-g = Graph()
+load_dotenv()
+
+dkg_graph = None
+local_graph = Graph()
+
+def connect_to_otnode():
+    """Initialize the DKG endpoint."""
+    global dkg_graph
+    node_provider = NodeHTTPProvider(os.getenv('DKG_ENDPOINT'))
+    dkg_graph = DKG(node_provider, None)
+    print(f'DKG: {dkg_graph.node.info}')
+
 
 def load_knowledge_assets(path):
     """Load knowledge assets into local cache."""
@@ -19,22 +35,41 @@ def load_knowledge_assets(path):
                 "@type": "ItemList",
                 "itemListElement": [{'public': {k: v for k, v in d['public'].items() if k != '@context'}} for d in data] # remove @context from assets
             }
-            g.parse(data=jsonld_data, format='json-ld')
+            local_graph.parse(data=jsonld_data, format='json-ld')
+
+def query_dkg(sparql_query):
+    """Performs SPARQL query."""
+    try:
+        dkg_result = dkg_graph.graph.query(sparql_query, repository="publicCurrent")
+        if dkg_result:
+            return dkg_result
+    except Exception as e:
+        print(f'DKG query failed: {e}')
+    return None
+
+def query_local_graph(sparql_query):
+    """Performs SPARQL query."""
+    try:
+        graph_result = []
+        result = local_graph.query(sparql_query)
+        if result:
+            for row in result:
+                item = {}
+                for var, val in zip(result.vars, row):
+                    item[var] = str(val)
+        if graph_result:
+            return graph_result
+    except Exception as e:
+        print(f'Local graph query failed: {e}')
+    return None
 
 def get_answer(sparql_query):
-    """Performs SPARQL query."""
-    results_list = []
-    try:
-        result = g.query(sparql_query)
-        for row in result:
-            item = {}
-            for var, val in zip(result.vars, row):
-                item[var] = str(val)
-            results_list.append(item)
-    except Exception as e:
-        print('An exception occurred:', e)
-
-    return results_list
+    """Performs SPARQL query using a chain of callbacks."""
+    for query_function in [query_dkg, query_local_graph]:
+        result = query_function(sparql_query)
+        if result is not None:
+            return result
+    return []
 
 def log_to_influxdb(client, request_data, response_data, is_empty):
     """Log copilot request and response."""
