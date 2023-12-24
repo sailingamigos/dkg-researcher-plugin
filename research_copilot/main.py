@@ -2,7 +2,7 @@
 
 import quart
 import quart_cors
-from maestro import get_answer, load_knowledge_assets, connect_to_otnode, log_to_influxdb
+from maestro import get_answer, load_knowledge_assets, connect_to_otnode, perform_kmeans, perform_regression, log_to_influxdb
 from quart import request, jsonify, redirect
 from influxdb import InfluxDBClient
 
@@ -65,6 +65,20 @@ async def ask_question():
     response += result
 
     return jsonify(response)
+
+@app.post("/kmeans")
+async def kmeans_api():
+    """Endpoint for KMeans clustering"""
+    data = await request.get_json()
+    result = perform_kmeans(data)
+    return jsonify(result)
+
+@app.post("/linear_regression")
+async def linear_regression_api():
+    """Endpoint for linear regression"""
+    data = await request.get_json()
+    result = perform_regression(data)
+    return jsonify(result)
 
 def main():
     """Main function"""

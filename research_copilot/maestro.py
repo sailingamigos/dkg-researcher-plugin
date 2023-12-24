@@ -3,12 +3,14 @@
 import os
 import json
 import glob
+import numpy as np
 from datetime import datetime
 from rdflib import Graph
 from dotenv import load_dotenv
 from quart import request, jsonify, redirect
 from dkg import DKG
 from dkg.providers import BlockchainProvider, NodeHTTPProvider
+from ai_cortex import kmeans_algorithm, linear_regression_algorithm
 
 load_dotenv()
 
@@ -66,11 +68,24 @@ def query_local_graph(sparql_query):
 
 def get_answer(sparql_query):
     """Performs SPARQL query using a chain of callbacks."""
-    for query_function in [query_dkg, query_local_graph]:
+    for query_function in [query_local_graph]: # query_dkg
         result = query_function(sparql_query)
         if result is not None:
             return result
     return []
+
+def perform_kmeans(data):
+    """Perform kmeans"""
+    X = np.array(data['X'])
+    k = data['k']
+    return kmeans_algorithm(X, k)
+
+def perform_regression(data):
+    """Perform logistic regression"""
+    X = np.array(data['X'])
+    y = np.array(data['y'])
+    predict_data = np.array(data['predict_data'])
+    return linear_regression_algorithm(X,y,predict_data)
 
 def log_to_influxdb(client, request_data, response_data, is_empty):
     """Log copilot request and response."""
