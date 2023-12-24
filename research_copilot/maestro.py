@@ -57,6 +57,7 @@ def query_local_graph(sparql_query):
                 item = {}
                 for var, val in zip(result.vars, row):
                     item[var] = str(val)
+                graph_result.append(item)
         if graph_result:
             return graph_result
     except Exception as e:
