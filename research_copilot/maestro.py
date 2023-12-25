@@ -76,7 +76,7 @@ def get_answer(sparql_query):
 
 def perform_kmeans(data):
     """Perform kmeans"""
-    X = np.array(data['X']).reshape(-1, 1)
+    X = data['X']
     k = data['k']
     return kmeans_algorithm(X, k)
 
