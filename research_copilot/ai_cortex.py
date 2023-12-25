@@ -19,7 +19,7 @@ def kmeans_algorithm(X, k):
 
     result = []
     for i, data in enumerate(X):
-        result.append({'X': data, 'cluster': cluster_labels[i]})
+        result.append({'X': data, 'cluster': int(cluster_labels[i])})
 
     return result
 
