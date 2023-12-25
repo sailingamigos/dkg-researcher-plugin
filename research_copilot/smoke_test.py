@@ -24,10 +24,10 @@ class TestPlugin(unittest.TestCase):
 
     def test_perform_regression(self):
         """Test logistic regression functionality."""
-        data = {
-            'X': [[0, 0], [1, 1], [2, 2]],
-            'y': [0, 1, 2],
-            'predict_data': [[1, 1]]
+        data = { 
+            "X": [2020, 2021, 2022, 2023],
+            "y": [146859, 84948, 20204, 1599],
+            "predict_data": [2024, 2025, 2026]
         }
         result = perform_regression(data)
         print(result)

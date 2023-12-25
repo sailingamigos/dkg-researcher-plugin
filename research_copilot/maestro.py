@@ -84,7 +84,7 @@ def perform_regression(data):
     """Perform logistic regression"""
     X = np.array(data['X']).reshape(-1, 1)
     y = np.array(data['y'])
-    predict_data = np.array(data['predict_data'])
+    predict_data = np.array(data['predict_data']).reshape(-1, 1)
     return linear_regression_algorithm(X,y,predict_data)
 
 def log_to_influxdb(client, request_data, response_data, is_empty):
