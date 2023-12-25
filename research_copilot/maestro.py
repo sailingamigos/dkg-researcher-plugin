@@ -76,13 +76,13 @@ def get_answer(sparql_query):
 
 def perform_kmeans(data):
     """Perform kmeans"""
-    X = np.array(data['X'])
+    X = np.array(data['X']).reshape(-1, 1)
     k = data['k']
     return kmeans_algorithm(X, k)
 
 def perform_regression(data):
     """Perform logistic regression"""
-    X = np.array(data['X'])
+    X = np.array(data['X']).reshape(-1, 1)
     y = np.array(data['y'])
     predict_data = np.array(data['predict_data'])
     return linear_regression_algorithm(X,y,predict_data)
