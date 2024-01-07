@@ -1,4 +1,4 @@
-@prefix : <http://example.org#> .
+@prefix : <http://schema.org#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -20,12 +20,10 @@
 :paperId rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range xsd:string ;
-    rdfs:comment "Identifier for a scholarly article." .
 
 :corpusId rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range xsd:int ;
-    rdfs:comment "Corpus identifier for an article." .
 
 :externalIds rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
@@ -55,12 +53,10 @@
 :publicationVenue rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range :PublicationVenue ;
-    rdfs:comment "Publication venue of an article." .
 
 :year rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range xsd:integer ;
-    rdfs:comment "Publication year of an article." .
 
 :referenceCount rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
@@ -90,11 +86,10 @@
 :Authors rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range :Authors ;
-    rdfs:comment "Authors of an article." .
 
 :embedding rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range :Embedding ;
+    rdfs:range :string ;
     rdfs:comment "Vector embeddings of an article." .
 
 :version rdf:type rdf:Property ;
@@ -111,71 +106,49 @@
 :name rdf:type rdf:Property ;
     rdfs:domain :Authors ;
     rdfs:range xsd:string ;
-    rdfs:comment "Name of an author." .
 
 :authorId rdf:type rdf:Property ;
     rdfs:domain :Authors ;
     rdfs:range xsd:string ;
-    rdfs:comment "Identifier for an author." .
 
 # Additional properties for PublicationVenue class
 :id rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:string ;
-    rdfs:comment "Identifier for a publication venue." .
 
 :name rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:string ;
-    rdfs:comment "Name of a publication venue." .
 
 :alternateNames rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:string ;
-    rdfs:comment "Alternate names for a publication venue." .
 
 :issn rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:string ;
-    rdfs:comment "ISSN of a publication venue." .
 
 :url rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:anyURI ;
-    rdfs:comment "URL of a publication venue." .
 
 :volume rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
     rdfs:range xsd:anyURI ;
-    rdfs:comment "Volume of a publication venue." .
 
 # Additional properties for s2FieldsOfStudy class
 :category rdf:type rdf:Property ;
     rdfs:domain :s2FieldsOfStudy ;
     rdfs:range xsd:string ;
-    rdfs:comment "Category of a field of study." .
 
 :source rdf:type rdf:Property ;
     rdfs:domain :s2FieldsOfStudy ;
     rdfs:range xsd:string ;
-    rdfs:comment "Source of a field of study." .
-
-# Additional properties for Embedding class
-:name rdf:type rdf:Property ;
-    rdfs:domain :Embedding ;
-    rdfs:range xsd:string ;
-    rdfs:comment "Name of an embedding." .
-
-:evector rdf:type rdf:Property ;
-    rdfs:domain :Embedding ;
-    rdfs:range xsd:string ;
-    rdfs:comment "Embedding vector of an article." .
 
 # Additional properties for Citation class
 :id rdf:type rdf:Property ;
     rdfs:domain :Citation ;
     rdfs:range xsd:string ;
-    rdfs:comment "Unique identifier of a citation article." .
 
 :title rdf:type rdf:Property ;
     rdfs:domain :Citation ;
