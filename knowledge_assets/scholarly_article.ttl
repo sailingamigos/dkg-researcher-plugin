@@ -83,7 +83,7 @@
     rdfs:range :s2FieldsOfStudy ;
     rdfs:comment "Fields of study associated with an article." .
 
-:Authors rdf:type rdf:Property ;
+:authors rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
     rdfs:range :Authors ;
 

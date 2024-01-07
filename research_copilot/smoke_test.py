@@ -36,6 +36,22 @@ class TestMaestro(unittest.TestCase):
         self.assertEqual(graph, 'Local')
         self.assertEqual(repository, 'Arxiv')
         self.assertEqual(len(result), 10)
+        
+        
+    def test_author_query(self):
+        """Test author repository."""
+        load_knowledge_assets('knowledge_assets/semantic_scholar_computer_vision')
+        response = get_answer({
+            'repository': 1,
+            'scholarlyArticleSparqlQuery': 'PREFIX : <http://schema.org/>\nSELECT ?name WHERE {\n  ?article a :ScholarlyArticle .\n  ?article :title ?title .\n  FILTER(LCASE(?title) = \"support vector machines\")\n  ?article :authors ?author .\n  ?author :name ?name .\n}',
+            'arxivSparqlQuery': '',
+        })
+
+        (graph, repository, result) = response[0]
+
+        self.assertEqual(graph, 'Local')
+        self.assertEqual(repository, 'SemanticScholar')
+        self.assertEqual(len(result), 2)
 
     def test_all_repository(self):
         """Test all repositories."""
