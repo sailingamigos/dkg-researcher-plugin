@@ -46,3 +46,8 @@
     rdfs:domain :ArxivArticle ;
     rdfs:range xsd:int ;
     rdfs:comment "Publication of an article." .
+
+:version rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Version of a knowledge asset." .
