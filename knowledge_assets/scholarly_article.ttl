@@ -4,118 +4,185 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # Classes
-:ScholarlyArticle rdf:type rdfs:Class .
-:Author rdf:type rdfs:Class .
-:Journal rdf:type rdfs:Class .
-:PublicationVenue rdf:type rdfs:Class .
-:FieldOfStudy rdf:type rdfs:Class .
+:ScholarlyArticle rdf:type rdfs:Class ;
+    rdfs:comment "Represents a scholarly article." .
+
+:Authors rdf:type rdfs:Class ;
+    rdfs:comment "Represents a list of authors." .
+
+:PublicationVenue rdf:type rdfs:Class ;
+    rdfs:comment "Represents a publication venue." .
+
+:s2FieldsOfStudy rdf:type rdfs:Class ;
+    rdfs:comment "Represents a list of fields of study." .
 
 # Properties
 :paperId rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:comment "Identifier for a scholarly article." .
 
 :corpusId rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
-
-:url rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:anyURI .
-
-:title rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
-
-:venue rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
-
-:publicationVenue rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range :PublicationVenue .
-
-:year rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:int ;
+    rdfs:comment "Corpus identifier for an article." .
 
 :externalIds rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:comment "External identifiers for an article." .
+
+:url rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "URL of a scholarly article." .
+
+:title rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Title of a scholarly article." .
 
 :abstract rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
-
-:referenceCount rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:integer .
-
-:citationCount rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:integer .
-
-:influentialCitationCount rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:integer .
-
-:isOpenAccess rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:boolean .
-
-:openAccessPdf rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:anyURI .
-
-:fieldsOfStudy rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range :FieldOfStudy .
-
-:s2FieldsOfStudy rdf:type rdf:Property ;
-    rdfs:domain :ScholarlyArticle ;
-    rdfs:range :FieldOfStudy .
+    rdfs:range xsd:string ;
+    rdfs:comment "Abstract of a scholarly article." .
 
 :publicationTypes rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:comment "Types of publications associated with an article." .
 
-:publicationDate rdf:type rdf:Property ;
+:publicationVenue rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:date .
+    rdfs:range :PublicationVenue ;
+    rdfs:comment "Publication venue of an article." .
 
-:journal rdf:type rdf:Property ;
+:year rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range :Journal .
+    rdfs:range xsd:integer ;
+    rdfs:comment "Publication year of an article." .
 
-:citationStyles rdf:type rdf:Property ;
+:referenceCount rdf:type rdf:Property ;
     rdfs:domain :ScholarlyArticle ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer ;
+    rdfs:comment "Number of references in an article." .
 
-# Additional properties based on the JSON-LD object
+:citationCount rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Number of citations of an article." .
+
+:openAccessPdf rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "URL to a PDF of an article." .
+
+:fieldsOfStudy rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :string ;
+    rdfs:comment "External fields of study associated with an article." .
+
+:s2FieldsOfStudy rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :s2FieldsOfStudy ;
+    rdfs:comment "Fields of study associated with an article." .
+
+:Authors rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :Authors ;
+    rdfs:comment "Authors of an article." .
+
+:embedding rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :Embedding ;
+    rdfs:comment "Vector embeddings of an article." .
+
+:version rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Version of a knowledge asset." .
+
+:citations rdf:type rdf:Property ;
+    rdfs:domain :ScholarlyArticle ;
+    rdfs:range :Citation ;
+    rdfs:comment "Citations of an article." .
+
+# Additional properties for Author class
+:name rdf:type rdf:Property ;
+    rdfs:domain :Authors ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Name of an author." .
+
+:authorId rdf:type rdf:Property ;
+    rdfs:domain :Authors ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Identifier for an author." .
+
+# Additional properties for PublicationVenue class
+:id rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Identifier for a publication venue." .
+
+:name rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Name of a publication venue." .
+
 :alternateNames rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:comment "Alternate names for a publication venue." .
 
 :issn rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:comment "ISSN of a publication venue." .
 
-:venueUrl rdf:type rdf:Property ;
+:url rdf:type rdf:Property ;
     rdfs:domain :PublicationVenue ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "URL of a publication venue." .
 
+:volume rdf:type rdf:Property ;
+    rdfs:domain :PublicationVenue ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "Volume of a publication venue." .
+
+# Additional properties for s2FieldsOfStudy class
 :category rdf:type rdf:Property ;
-    rdfs:domain :FieldOfStudy ;
-    rdfs:range xsd:string .
+    rdfs:domain :s2FieldsOfStudy ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Category of a field of study." .
 
 :source rdf:type rdf:Property ;
-    rdfs:domain :FieldOfStudy ;
-    rdfs:range xsd:string .
+    rdfs:domain :s2FieldsOfStudy ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Source of a field of study." .
 
-:journalName rdf:type rdf:Property ;
-    rdfs:domain :Journal ;
-    rdfs:range xsd:string .
+# Additional properties for Embedding class
+:name rdf:type rdf:Property ;
+    rdfs:domain :Embedding ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Name of an embedding." .
 
-:journalVolume rdf:type rdf:Property ;
-    rdfs:domain :Journal ;
-    rdfs:range xsd:string .
+:evector rdf:type rdf:Property ;
+    rdfs:domain :Embedding ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Embedding vector of an article." .
+
+# Additional properties for Citation class
+:id rdf:type rdf:Property ;
+    rdfs:domain :Citation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Unique identifier of a citation article." .
+
+:title rdf:type rdf:Property ;
+    rdfs:domain :Citation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Title of a citation article." .
+
+:url rdf:type rdf:Property ;
+    rdfs:domain :Citation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "URL of a citation article." .

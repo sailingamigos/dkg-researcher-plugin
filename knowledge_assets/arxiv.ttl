@@ -1,0 +1,48 @@
+@prefix : <http://example.org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Classes
+:ArxivArticle rdf:type rdfs:Class .
+
+# Properties
+:id rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Identifier for an arxiv article." .
+
+:title rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Title of an arxiv article." .
+
+:abstract rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Abstract of an arxiv article." .
+
+:authors rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Authors of an article." .
+
+:url rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "URL of an arxiv article." .
+
+:primary_category rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Primary category of an arxiv article." .
+
+:categories rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Category of an arxiv article." .
+
+:year rdf:type rdf:Property ;
+    rdfs:domain :ArxivArticle ;
+    rdfs:range xsd:int ;
+    rdfs:comment "Publication of an article." .
