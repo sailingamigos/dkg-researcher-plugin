@@ -71,7 +71,8 @@ def create_assets(papers, _):
             'authors': [d['name'] for d in input_data.authors],
             'url': [d['href'] for d in input_data.links],
             'primary_category': input_data.arxiv_primary_category['term'],
-            "categories": [d['term'] for d in input_data.tags]
+            "categories": [d['term'] for d in input_data.tags],
+            'version': os.getenv('ASSETS_VERSION')
         }
 
         result.append(arxiv_article)
