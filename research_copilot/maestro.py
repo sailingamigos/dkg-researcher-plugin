@@ -3,14 +3,13 @@
 import os
 import json
 import glob
-import numpy as np
 from datetime import datetime
-from rdflib import Graph
-from dotenv import load_dotenv
-from quart import request, jsonify, redirect
-from dkg import DKG
-from dkg.providers import BlockchainProvider, NodeHTTPProvider
-from ai_cortex import kmeans_algorithm, linear_regression_algorithm
+import numpy as np # pylint: disable=import-error
+from rdflib import Graph # pylint: disable=import-error
+from dotenv import load_dotenv # pylint: disable=import-error
+from dkg import DKG # pylint: disable=import-error
+from dkg.providers import NodeHTTPProvider # pylint: disable=import-error
+from ai_cortex import kmeans_algorithm, linear_regression_algorithm, vector_search_algorithm
 
 load_dotenv()
 
@@ -24,18 +23,19 @@ def connect_to_otnode():
     dkg_graph = DKG(node_provider, None)
     print(f'DKG: {dkg_graph.node.info}')
 
-
 def load_knowledge_assets(path):
     """Load knowledge assets into local cache."""
     json_files = glob.glob(f'{path}/**/*.json', recursive=True)
     for file in json_files:
         print(f'Loading {file}')
-        with open(file, 'r', encoding="utf-8") as file:
-            data = json.load(file)
+        with open(file, 'r', encoding="utf-8") as json_file:
+            data = json.load(json_file)[0]['public']
             jsonld_data = {
                 "@context": "https://schema.org",
                 "@type": "ItemList",
-                "itemListElement": [{'public': {k: v for k, v in d['public'].items() if k != '@context'}} for d in data] # remove @context from assets
+                "itemListElement": [
+                    {k: v for k, v in d.items() if k != '@context'} for d in data
+                ]  # Remove '@context' from assets
             }
             local_graph.parse(data=jsonld_data, format='json-ld')
 
@@ -58,7 +58,7 @@ def query_local_graph(sparql_query):
             for row in result:
                 item = {}
                 for var, val in zip(result.vars, row):
-                    item[var] = str(val)
+                    item[var.toPython()] = str(val)
                 graph_result.append(item)
         if graph_result:
             return graph_result
@@ -66,29 +66,75 @@ def query_local_graph(sparql_query):
         print(f'Local graph query failed: {e}')
     return None
 
-def get_answer(sparql_query):
+def get_answer(payload):
     """Performs SPARQL query using a chain of callbacks."""
-    for query_function in [query_local_graph]: # query_dkg
-        result = query_function(sparql_query)
-        if result is not None:
-            return result
-    return []
+    repository = payload['repository']
+    primary_sparql_query = payload['scholarlyArticleSparqlQuery']
+    secondary_sparql_query = payload['arxivSparqlQuery']
+
+    if repository == 1:
+        sparql_queries = [primary_sparql_query]
+    elif repository == 2:
+        sparql_queries = [secondary_sparql_query]
+    else:
+        sparql_queries = [primary_sparql_query, secondary_sparql_query]
+
+    response = []
+
+    for query_function in [query_local_graph]:  # Consider adding query_dkg here if needed
+        for sparql_query in sparql_queries:
+            result = query_function(sparql_query)
+            if result is not None:
+                graph_name = 'DKG' if query_function.__name__ == 'query_dkg' else 'Local'
+                repository_name = 'SemanticScholar' if sparql_query == primary_sparql_query else 'Arxiv'
+                response.append((graph_name, repository_name, result))
+
+    return response
 
 def perform_kmeans(data):
-    """Perform kmeans"""
+    """Perform k-means clustering."""
     X = data['X']
     k = data['k']
     return kmeans_algorithm(X, k)
 
 def perform_regression(data):
-    """Perform logistic regression"""
+    """Perform linear regression."""
     X = np.array(data['X']).reshape(-1, 1)
     y = np.array(data['y'])
     predict_data = np.array(data['predict_data']).reshape(-1, 1)
-    return linear_regression_algorithm(X,y,predict_data)
+    return linear_regression_algorithm(X, y, predict_data)
+
+def perform_vector_search(data):
+    """Perform vector search."""
+    question = data['question']
+    response = get_answer({
+        'repository': 1,
+        'scholarlyArticleSparqlQuery': """
+            PREFIX  :     <http://schema.org/>
+            SELECT  ?title ?abstract ?embedding
+            WHERE
+            {   
+                ?paper      a           :ScholarlyArticle ;
+                            :embedding  ?embedding ;
+                            :title      ?title ;
+                            :abstract   ?abstract .
+                FILTER (?embedding != 'None')
+            }
+        """,
+        'arxivSparqlQuery': ''
+    })
+    (graph, repository, result) = response[0]
+    vectors = [json.loads(obj['?embedding']) for obj in result]
+    sorted_indices = vector_search_algorithm(question, vectors)
+
+    n = 3
+    top_n_papers = [result[i] for i in sorted_indices[:n]]
+    top_n_papers = [{k: v for k, v in paper.items() if k != '?embedding'} for paper in top_n_papers]
+
+    return (graph, repository, top_n_papers)
 
 def log_to_influxdb(client, request_data, response_data, is_empty):
-    """Log copilot request and response."""
+    """Log API request and response to InfluxDB."""
     current_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     json_body = [
