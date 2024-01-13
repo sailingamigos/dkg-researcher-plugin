@@ -81,7 +81,7 @@ def get_answer(payload):
 
     response = []
 
-    for query_function in [query_local_graph]:  # Consider adding query_dkg here if needed
+    for query_function in [query_dkg, query_local_graph]:
         for sparql_query in sparql_queries:
             result = query_function(sparql_query)
             if result is not None:
