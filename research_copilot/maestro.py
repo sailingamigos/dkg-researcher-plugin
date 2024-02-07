@@ -103,6 +103,8 @@ def get_answer(payload):
                 graph_name = 'DKG' if query_function.__name__ == 'query_dkg' else 'Local'
                 repository_name = 'SemanticScholar' if sparql_query == primary_sparql_query else 'Arxiv'
                 response.append((graph_name, repository_name, result))
+        if len(response) > 0:
+            return response
 
     return response
 
