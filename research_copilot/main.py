@@ -88,7 +88,7 @@ async def vector_search_api():
 
 def main():
     """Main function to start the app."""
-    connect_to_otnode()
+    # connect_to_otnode()
     load_knowledge_assets('knowledge_assets')
     app.run(debug=True, host="0.0.0.0", port=8080)
 

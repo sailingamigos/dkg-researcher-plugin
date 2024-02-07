@@ -8,8 +8,6 @@ class TestMaestro(unittest.TestCase):
 
     def test_primary_repository(self):
         """Test primary repository."""
-        load_knowledge_assets('knowledge_assets/semantic_scholar_machine_learning')
-        connect_to_otnode()
         response = get_answer({
             'repository': 1,
             'scholarlyArticleSparqlQuery': 'PREFIX : <http://schema.org/>\nSELECT ?paper ?title WHERE {\n  ?paper a :ScholarlyArticle .\n  ?paper :title ?title .\n} LIMIT 10',
@@ -18,13 +16,12 @@ class TestMaestro(unittest.TestCase):
     
         (graph, repository, result) = response[0]
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'SemanticScholar')
         self.assertEqual(len(result), 10)
 
     def test_secondary_repository(self):
         """Test secondary repository."""
-        load_knowledge_assets('knowledge_assets/arxiv_machine_learning')
         response = get_answer({
             'repository': 2,
             'scholarlyArticleSparqlQuery': '',
@@ -33,30 +30,27 @@ class TestMaestro(unittest.TestCase):
 
         (graph, repository, result) = response[0]
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'Arxiv')
         self.assertEqual(len(result), 10)
-        
         
     def test_author_query(self):
         """Test author repository."""
         load_knowledge_assets('knowledge_assets/semantic_scholar_computer_vision')
         response = get_answer({
             'repository': 1,
-            'scholarlyArticleSparqlQuery': 'PREFIX : <http://schema.org/>\nSELECT ?name WHERE {\n  ?article a :ScholarlyArticle .\n  ?article :title ?title .\n  FILTER(LCASE(?title) = \"support vector machines\")\n  ?article :authors ?author .\n  ?author :name ?name .\n}',
+            'scholarlyArticleSparqlQuery': 'PREFIX : <http://schema.org/>\nSELECT ?name WHERE {\n  ?article a :ScholarlyArticle .\n  ?article :title ?title .\n  FILTER(LCASE(?title) = '"automatic feature selection in neuroevolution"')\n  ?article :authors ?author .\n  ?author :name ?name .\n}',
             'arxivSparqlQuery': '',
         })
 
         (graph, repository, result) = response[0]
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'SemanticScholar')
         self.assertEqual(len(result), 2)
 
     def test_all_repository(self):
         """Test all repositories."""
-        load_knowledge_assets('knowledge_assets/semantic_scholar_machine_learning')
-        load_knowledge_assets('knowledge_assets/arxiv_machine_learning')
         response = get_answer({
             'repository': 0,
             'scholarlyArticleSparqlQuery': 'PREFIX : <http://schema.org/>\nSELECT ?paper ?title WHERE {\n  ?paper a :ScholarlyArticle .\n  ?paper :title ?title .\n} LIMIT 10',
@@ -65,13 +59,13 @@ class TestMaestro(unittest.TestCase):
 
         (graph, repository, result) = response[0]
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'SemanticScholar')
         self.assertEqual(len(result), 10)
 
         (graph, repository, result) = response[1]
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'Arxiv')
         self.assertEqual(len(result), 10)
 
@@ -102,14 +96,13 @@ class TestMaestro(unittest.TestCase):
 
     def test_vector_search(self):
         """Test vector search functionality."""
-        load_knowledge_assets('knowledge_assets/semantic_scholar_machine_learning')
         data = {
             'question': 'meta learning'
         }
         response = perform_vector_search(data)
         (graph, repository, result) = response
 
-        self.assertEqual(graph, 'Local')
+        self.assertEqual(graph, 'DKG')
         self.assertEqual(repository, 'SemanticScholar')
         self.assertEqual(len(result), 3)
         print(result)

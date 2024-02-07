@@ -3,6 +3,7 @@
 import os
 import json
 import glob
+import requests
 from datetime import datetime
 import numpy as np # pylint: disable=import-error
 from rdflib import Graph # pylint: disable=import-error
@@ -42,9 +43,23 @@ def load_knowledge_assets(path):
 def query_dkg(sparql_query):
     """Performs SPARQL query."""
     try:
-        dkg_result = dkg_graph.graph.query(sparql_query, repository="publicCurrent")
+        payload = {
+        'query': sparql_query,
+        'queryType': 'SELECT',
+        'responseFormat': 'application/json'
+        }
+        headers = {
+        'X-Requested-With': 'XMLHttpRequest',
+        'Authorization': f'Basic {os.getenv("NOS_AUTH_BASIC")} Bearer {os.getenv("NOS_AUTH_BEARER")}',
+        'Accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded'
+        }
+
+        dkg_result = requests.request("POST", os.getenv('NOS_ENDPOINT'), headers=headers, data=payload, timeout=30)
+
+        # dkg_result = dkg_graph.graph.query(sparql_query, repository="publicHistory")
         if dkg_result:
-            return dkg_result
+            return json.loads(dkg_result.text)['queryResult']
     except Exception as e:
         print(f'DKG query failed: {e}')
     return None
@@ -124,12 +139,15 @@ def perform_vector_search(data):
         'arxivSparqlQuery': ''
     })
     (graph, repository, result) = response[0]
-    vectors = [json.loads(obj['?embedding']) for obj in result]
+    embedding_field_name = 'embedding' if graph == 'DKG' else '?embedding'
+    vectors = [json.loads(obj[embedding_field_name]) for obj in result]
+    if graph == 'DKG':
+        vectors = [json.loads(obj) for obj in vectors]
     sorted_indices = vector_search_algorithm(question, vectors)
 
     n = 3
     top_n_papers = [result[i] for i in sorted_indices[:n]]
-    top_n_papers = [{k: v for k, v in paper.items() if k != '?embedding'} for paper in top_n_papers]
+    top_n_papers = [{k: v for k, v in paper.items() if k != embedding_field_name} for paper in top_n_papers]
 
     return (graph, repository, top_n_papers)
 
